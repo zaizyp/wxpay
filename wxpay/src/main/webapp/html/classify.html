@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>商城分类</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+<link rel="stylesheet" href="http://localhost:8080/lib/weui.min.css">
+<link rel="stylesheet" href="http://localhost:8080/css/jquery-weui.css">
+<link rel="stylesheet" href="http://localhost:8080/css/style.css">
+</head>
+<body ontouchstart>
+<!--顶部搜索-->
+<!--主体-->
+<div class="wy-content">
+  <div class="category-top">
+    <header class='weui-header'>
+  <div class="weui-search-bar" id="searchBar">
+    <form class="weui-search-bar__form">
+      <div class="weui-search-bar__box">
+        <i class="weui-icon-search"></i>
+        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索您想要的商品" required>
+        <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+      </div>
+      <label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+        <i class="weui-icon-search"></i>
+        <span>搜索您想要的商品</span>
+      </label>
+    </form>
+    <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+  </div>
+</header>
+  </div>
+	<div id="classify">
+		<aside>
+			<div class="menu-left scrollbar-none" id="sidebar">
+				<ul>
+					<template v-for="(cat, index) in catList">
+						<li class="active" @click="classSelect(this);" v-if="index==0">{{cat.name}}</li>
+						<li @click="classSelect(this);" v-if="index!=0">{{cat.name}}</li>
+					</template>
+				</ul>
+			</div>
+		</aside>
+		<template v-for="(cat,index) in catList">
+			<section v-if="index==0" class="menu-right padding-all j-content">
+				<h5>{{cat.name}}</h5>
+				<ul>
+					<li class="w-3" v-for="children in cat.children">
+						<a href="pro_list.html"></a>
+						<img v-bind:src="server_url+children.image">
+						<span>{{children.name}}</span>
+					</li>
+				</ul>
+			</section>
+			<section v-if="index!=0" class="menu-right padding-all j-content" style="display:none;">
+				<h5>{{cat.name}}</h5>
+				<ul>
+					<li class="w-3" v-for="children in cat.children">
+						<a href="pro_list.html"></a>
+						<img v-bind:src="server_url+children.image">
+						<span>{{children.name}}</span>
+					</li>
+				</ul>
+			</section>
+		</template>
+		
+		
+	</div>
+  
+</div>
+<script src="http://localhost:8080/lib/jquery-2.1.4.js"></script> 
+<script src="http://localhost:8080/lib/fastclick.js"></script> 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+<script src="http://localhost:8080/js/jquery-weui.js"></script>
+
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script type="text/javascript">
+	  var app;
+	$(function($){
+		
+			app = new Vue({
+			el: '#classify',
+			data: {
+				catList: [],
+				server_url: "http://localhost:8080"
+			},
+			methods: {
+				classSelect: function(e){
+					$(e).addClass('active').siblings('li').removeClass('active');
+					var index = $(e).index();
+					$('.j-content').eq(index).show().siblings('.j-content').hide();
+				}
+			},
+			created: function(){
+				var _self = this;
+				axios.get(_self.server_url+"/api/item/cat/list")
+				  .then(function (response) {
+				    console.log(response);
+				    _self.catList = response.data;
+				  })
+				  .catch(function (error) {
+				    console.log(error);
+				  });
+			}
+		});
+	})
+</script>
+</body>
+</html>

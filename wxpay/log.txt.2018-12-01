@@ -1,0 +1,91 @@
+  {}
+  ip:14.116.133.171
+ openid:orajBwVMxNr7IjFjKv-C1_56iOAI
+  Creating a new SqlSession
+  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5d63c7ba] will be managed by Spring
+  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325] from current transaction
+  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325] from current transaction
+  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325] from current transaction
+  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15e6d325]
+  {out_trade_no=pYKyjeA0wri4TqcuqeJzQTfGxoL6hA3W, total_fee=3000, body=景淘惠小店,}
+  商户订单号：pYKyjeA0wri4TqcuqeJzQTfGxoL6hA3W
+  参与签名的参数：{nonce_str=TgsNcvxtdMfxk65ocMW5MILLfGMNx9KF, out_trade_no=pYKyjeA0wri4TqcuqeJzQTfGxoL6hA3W, openid=orajBwVMxNr7IjFjKv-C1_56iOAI, appid=wx737e58bd1ab509c4, total_fee=3000, trade_type=JSAPI, mch_id=1471033402, body=景淘惠小店,, notify_url=https://wxpay.dream520studio.cn/wxpay/wx/payNotify, spbill_create_ip=14.116.133.171}
+  签名完成的xml数据：<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+<nonce_str>TgsNcvxtdMfxk65ocMW5MILLfGMNx9KF</nonce_str>
+<out_trade_no>pYKyjeA0wri4TqcuqeJzQTfGxoL6hA3W</out_trade_no>
+<openid>orajBwVMxNr7IjFjKv-C1_56iOAI</openid>
+<appid>wx737e58bd1ab509c4</appid>
+<total_fee>3000</total_fee>
+<sign>868B11CABE71A20678D239BE4DAB0B82</sign>
+<trade_type>JSAPI</trade_type>
+<mch_id>1471033402</mch_id>
+<body>景淘惠小店,</body>
+<notify_url>https://wxpay.dream520studio.cn/wxpay/wx/payNotify</notify_url>
+<spbill_create_ip>14.116.133.171</spbill_create_ip>
+</xml>
+
+2018-12-01 15:14:25  [ http-nio-8080-exec-135:272909 ] - [ INFO ]  微信统一下单返回的数据：<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx737e58bd1ab509c4]]></appid>
+<mch_id><![CDATA[1471033402]]></mch_id>
+<nonce_str><![CDATA[PqME3zkc7tSjGU1Y]]></nonce_str>
+<sign><![CDATA[D04ED7EBCDECEABA005AEB2D0FF295A8]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx0115142509322578b81364702363305417]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+  转换成map的数据{nonce_str=PqME3zkc7tSjGU1Y, appid=wx737e58bd1ab509c4, sign=D04ED7EBCDECEABA005AEB2D0FF295A8, trade_type=JSAPI, return_msg=OK, result_code=SUCCESS, mch_id=1471033402, return_code=SUCCESS, prepay_id=wx0115142509322578b81364702363305417}
+  参与公众号支付接口签名的数据：{timeStamp=1543648465, package=prepay_id=wx0115142509322578b81364702363305417, appId=wx737e58bd1ab509c4, signType=MD5, nonceStr=e0QwuMzpfHmZTTAVuMQT0PgRgWCTQLUt}
+  支付签名：224805731ACB244C3EFC922650502FFA
+  224805731ACB244C3EFC922650502FFA
+  com.ping.util.WXResult@25d97dec
+
+
+  转换成map的数据{nonce_str=zVXUqhAYRFn0S6vo, appid=wx737e58bd1ab509c4, sign=3C9D20A8565BD8E1AB3D4C3D3806D718, trade_type=JSAPI, return_msg=OK, result_code=SUCCESS, mch_id=1471033402, return_code=SUCCESS, prepay_id=wx01110327687790eebe0363343160500953}
+  参与公众号支付接口签名的数据：{timeStamp=1543633407, package=prepay_id=wx01110327687790eebe0363343160500953, appId=wx737e58bd1ab509c4, signType=MD5, nonceStr=hhp0o4By9ts3s8R2DCIs2Gz7hpCyi9pn}
+  支付签名：4D453F07C23B04106285D58F6D879747
+
+
+ 转换成map的数据{nonce_str=nBhHMfvKTMrBQCCO, appid=wx737e58bd1ab509c4, sign=FD619CCFB103782E3C1AA126F964078D, trade_type=JSAPI, return_msg=OK, result_code=SUCCESS, mch_id=1471033402, return_code=SUCCESS, prepay_id=wx01161622682437709b1f68d83823287038}
+ 参与公众号支付接口签名的数据：{timeStamp=1543652182, package=prepay_id=wx01161622682437709b1f68d83823287038, appId=wx737e58bd1ab509c4, signType=MD5, nonceStr=gOgyanE7IY7BqqSaG36ebs5I4tW60PeE}
+ 支付签名：40A0B5A976E54ACB18F3A5F7C0854722
+ 40A0B5A976E54ACB18F3A5F7C0854722
+ com.ping.util.WXResult@555ab3a5
+
+
+转换成map的数据{nonce_str=hRN5qoRWxmT7gDDg, appid=wx737e58bd1ab509c4, sign=B03CC9103643D937B9DFFEF3132BA120, trade_type=JSAPI, return_msg=OK, result_code=SUCCESS, mch_id=1471033402, return_code=SUCCESS, prepay_id=wx011626529392673928f76ce12811602089}
+参与公众号支付接口签名的数据：{timeStamp=1543652813, package=prepay_id=wx011626529392673928f76ce12811602089, appId=wx737e58bd1ab509c4, signType=MD5, nonceStr=Ne5Sf8CVNg4mY0AZb3isyaHWdq5hFGbO}
+支付签名：35D72850C2DCB7F82F5B1C589AAB4C9F
+  35D72850C2DCB7F82F5B1C589AAB4C9F
+
+转换成map的数据{nonce_str=w0BbaaW9uN85FRCc, appid=wx737e58bd1ab509c4, sign=0DBEF5A52494C27B8378F79DD0D9C376, trade_type=JSAPI, return_msg=OK, result_code=SUCCESS, mch_id=1471033402, return_code=SUCCESS, prepay_id=wx0116490217301089dbb3af610386941712}
+参与公众号支付接口签名的数据：{timeStamp=1543654142, package=prepay_id=wx0116490217301089dbb3af610386941712, appId=wx737e58bd1ab509c4, signType=MD5, nonceStr=T0GYS3aiOh8l4hk502NZpcpkHKkgS2kd}
+支付签名：1D9679DF89A7DF0BCBC1A0A0D75904FF
+
+
+nonceStr
+:
+"JhhrQPK8N2ZrVeHfRUv2q7vzSqVDi859"
+package
+:
+"prepay_id=wx01200132954490d6497269433119240592"
+paySign
+:
+"4DE3A760933EAFAAC178453C10BAD00E"
+signType
+:
+"MD5"
+timeStamp
+:
+"1543665693"
+
+
+

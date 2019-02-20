@@ -1,0 +1,882 @@
+2018-12-17 19:04:57  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-12-17 19:04:57  [ localhost-startStop-1:105 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Dec 17 19:04:57 CST 2018]; root of context hierarchy
+2018-12-17 19:04:57  [ localhost-startStop-1:178 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-12-17 19:04:57  [ localhost-startStop-1:507 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-redis.xml]
+2018-12-17 19:04:57  [ localhost-startStop-1:645 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-12-17 19:04:57  [ localhost-startStop-1:681 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-12-17 19:04:58  [ localhost-startStop-1:988 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdCatMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:989 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:989 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:990 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxCollectionMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:990 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxDeliveryAddressMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:990 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:991 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:991 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:992 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:992 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:993 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsContentMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:993 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:994 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderItemMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:994 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:994 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderNoMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:995 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopingCartMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:995 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:996 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-12-17 19:04:58  [ localhost-startStop-1:997 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdCatMapper' and 'com.ping.mapper.WxAdCatMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:999 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdMapper' and 'com.ping.mapper.WxAdMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxCollectionMapper' and 'com.ping.mapper.WxCollectionMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxDeliveryAddressMapper' and 'com.ping.mapper.WxDeliveryAddressMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1000 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsContentMapper' and 'com.ping.mapper.WxNewsContentMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1001 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsMapper' and 'com.ping.mapper.WxNewsMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1001 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderItemMapper' and 'com.ping.mapper.WxOrderItemMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1002 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderMapper' and 'com.ping.mapper.WxOrderMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1002 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderNoMapper' and 'com.ping.mapper.WxOrderNoMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1002 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopingCartMapper' and 'com.ping.mapper.WxShopingCartMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1002 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1002 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-12-17 19:04:58  [ localhost-startStop-1:1054 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:04:59  [ localhost-startStop-1:2085 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-12-17 19:04:59  [ localhost-startStop-1:2087 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-12-17 19:05:00  [ localhost-startStop-1:3633 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3631 ms
+2018-12-17 19:05:00  [ localhost-startStop-1:3709 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-12-17 19:05:00  [ localhost-startStop-1:3712 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:05:00 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:05:00  [ localhost-startStop-1:3712 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-12-17 19:05:01  [ localhost-startStop-1:4124 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:05:01  [ localhost-startStop-1:4681 ] - [ INFO ]  Mapped "{[/address/getlist]}" onto public java.util.List<com.ping.pojo.WxDeliveryAddress> com.ping.controller.AddressController.getAddressList(javax.servlet.http.HttpSession)
+2018-12-17 19:05:01  [ localhost-startStop-1:4682 ] - [ INFO ]  Mapped "{[/address/add]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.addAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:05:01  [ localhost-startStop-1:4683 ] - [ INFO ]  Mapped "{[/address/update]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.updateAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:05:01  [ localhost-startStop-1:4683 ] - [ INFO ]  Mapped "{[/address/delete]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.deleteAddress(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:05:01  [ localhost-startStop-1:4684 ] - [ INFO ]  Mapped "{[/address/addPage]}" onto public java.lang.String com.ping.controller.AddressController.addPage()
+2018-12-17 19:05:01  [ localhost-startStop-1:4684 ] - [ INFO ]  Mapped "{[/address/list]}" onto public java.lang.String com.ping.controller.AddressController.addressList(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:05:01  [ localhost-startStop-1:4684 ] - [ INFO ]  Mapped "{[/address/edit]}" onto public java.lang.String com.ping.controller.AddressController.addressEdit(java.lang.Long,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:05:01  [ localhost-startStop-1:4685 ] - [ INFO ]  Mapped "{[/address/default]}" onto public com.ping.pojo.WxDeliveryAddress com.ping.controller.AddressController.defaultAddress(javax.servlet.http.HttpSession)
+2018-12-17 19:05:01  [ localhost-startStop-1:4686 ] - [ INFO ]  Mapped "{[/admin/{page}]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-12-17 19:05:01  [ localhost-startStop-1:4689 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-12-17 19:05:01  [ localhost-startStop-1:4689 ] - [ INFO ]  Mapped "{[/admin/item/cat/update]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-12-17 19:05:01  [ localhost-startStop-1:4689 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-12-17 19:05:01  [ localhost-startStop-1:4690 ] - [ INFO ]  Mapped "{[/admin/item/cat/create]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-12-17 19:05:01  [ localhost-startStop-1:4691 ] - [ INFO ]  Mapped "{[/admin/item/cat/list]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-12-17 19:05:01  [ localhost-startStop-1:4701 ] - [ INFO ]  Mapped "{[/admin/item/list]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-12-17 19:05:01  [ localhost-startStop-1:4701 ] - [ INFO ]  Mapped "{[/admin/item/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-12-17 19:05:01  [ localhost-startStop-1:4702 ] - [ INFO ]  Mapped "{[/admin/item/save]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-12-17 19:05:01  [ localhost-startStop-1:4703 ] - [ INFO ]  Mapped "{[/api/item/cat/list]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.ApiItemCatController.ItemCatList()
+2018-12-17 19:05:01  [ localhost-startStop-1:4705 ] - [ INFO ]  Mapped "{[/collection/delete]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.deleteCollection(javax.servlet.http.HttpSession,java.lang.Long) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4706 ] - [ INFO ]  Mapped "{[/collection/add]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.addCollection(javax.servlet.http.HttpSession,com.ping.pojo.WxCollection) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4706 ] - [ INFO ]  Mapped "{[/collection/list]}" onto public java.lang.String com.ping.controller.CollectionController.collectionList(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4707 ] - [ INFO ]  Mapped "{[/goods/list]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-12-17 19:05:01  [ localhost-startStop-1:4708 ] - [ INFO ]  Mapped "{[/index]}" onto public java.lang.String com.ping.controller.IndexController.index(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4709 ] - [ INFO ]  Mapped "{[/item/cat/list]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-12-17 19:05:01  [ localhost-startStop-1:4711 ] - [ INFO ]  Mapped "{[/item/list/{cid}]}" onto public java.lang.String com.ping.controller.ItemController.itemList(java.lang.Long,org.springframework.ui.Model)
+2018-12-17 19:05:01  [ localhost-startStop-1:4712 ] - [ INFO ]  Mapped "{[/item/{id}]}" onto public java.lang.String com.ping.controller.ItemController.itemDetail(java.lang.Long,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:05:01  [ localhost-startStop-1:4712 ] - [ INFO ]  Mapped "{[/item/list/like]}" onto public java.lang.String com.ping.controller.ItemController.ItemLikeList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4713 ] - [ INFO ]  Mapped "{[/login]}" onto public java.lang.String com.ping.controller.LoginController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4714 ] - [ INFO ]  Mapped "{[/news/list]}" onto public java.lang.String com.ping.controller.NewsController.newsList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4714 ] - [ INFO ]  Mapped "{[/news/{newsId}]}" onto public java.lang.String com.ping.controller.NewsController.getNews(java.lang.Long,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4716 ] - [ INFO ]  Mapped "{[/order/success]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-12-17 19:05:01  [ localhost-startStop-1:4716 ] - [ INFO ]  Mapped "{[/order/pay]}" onto public java.lang.String com.ping.controller.OrderController.confirmOrder(javax.servlet.http.HttpSession,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,java.lang.Long,java.lang.Integer) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4717 ] - [ INFO ]  Mapped "{[/order/payparam]}" onto public com.ping.util.WXResult com.ping.controller.OrderController.orderPay(javax.servlet.http.HttpSession,java.util.Map<java.lang.Long, java.lang.String>,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4718 ] - [ INFO ]  Mapped "{[/pic/upload]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-12-17 19:05:01  [ localhost-startStop-1:4719 ] - [ INFO ]  Mapped "{[/wx]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-12-17 19:05:01  [ localhost-startStop-1:4721 ] - [ INFO ]  Mapped "{[/shopingCart/delete]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.deleteShopingCart(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:05:01  [ localhost-startStop-1:4722 ] - [ INFO ]  Mapped "{[/shopingCart/update]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.updateCart(javax.servlet.http.HttpSession,java.lang.Long,java.lang.Integer)
+2018-12-17 19:05:01  [ localhost-startStop-1:4722 ] - [ INFO ]  Mapped "{[/shopingCart/count]}" onto public void com.ping.controller.ShopingCartController.getCount(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse)
+2018-12-17 19:05:01  [ localhost-startStop-1:4722 ] - [ INFO ]  Mapped "{[/shopingCart/add]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.addShopingCart(com.ping.pojo.WxShopingCart,javax.servlet.http.HttpSession)
+2018-12-17 19:05:01  [ localhost-startStop-1:4723 ] - [ INFO ]  Mapped "{[/shopingCart/list]}" onto public java.lang.String com.ping.controller.ShopingCartController.cartList(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:05:01  [ localhost-startStop-1:4723 ] - [ INFO ]  Mapped "{[/test/redis]}" onto public java.lang.String com.ping.controller.TestController.redisTest()
+2018-12-17 19:05:01  [ localhost-startStop-1:4724 ] - [ INFO ]  Mapped "{[/mine]}" onto public java.lang.String com.ping.controller.UserController.mine(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4725 ] - [ INFO ]  Mapped "{[/wx/config]}" onto public com.ping.util.WXResult com.ping.controller.WxController.getWxConfig(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4726 ] - [ INFO ]  Mapped "{[/message/sent]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-12-17 19:05:01  [ localhost-startStop-1:4728 ] - [ INFO ]  Mapped "{[/wx/wxconfig]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,java.lang.String)
+2018-12-17 19:05:01  [ localhost-startStop-1:4729 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-12-17 19:05:01  [ localhost-startStop-1:4729 ] - [ INFO ]  Mapped "{[/wx/payNotify]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-12-17 19:05:01  [ localhost-startStop-1:4729 ] - [ INFO ]  Mapped "{[/wx/orderQuery]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-12-17 19:05:01  [ localhost-startStop-1:4730 ] - [ INFO ]  Mapped "{[/wx/login]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:05:01  [ localhost-startStop-1:4730 ] - [ INFO ]  Mapped "{[/wx/test]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-12-17 19:05:02  [ localhost-startStop-1:5306 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:05:00 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:05:02  [ localhost-startStop-1:5419 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:05:00 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:05:02  [ localhost-startStop-1:5770 ] - [ INFO ]  Mapped URL path [/wxmall/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-17 19:05:02  [ localhost-startStop-1:5774 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-12-17 19:05:02  [ localhost-startStop-1:5777 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-12-17 19:05:02  [ localhost-startStop-1:5781 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-12-17 19:05:02  [ localhost-startStop-1:5784 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-12-17 19:05:02  [ localhost-startStop-1:5787 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-12-17 19:05:02  [ localhost-startStop-1:5790 ] - [ INFO ]  Mapped URL path [/jquery-weui/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-12-17 19:05:02  [ localhost-startStop-1:5795 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-12-17 19:05:02  [ localhost-startStop-1:5798 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-12-17 19:05:02  [ localhost-startStop-1:5801 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#9'
+2018-12-17 19:05:02  [ localhost-startStop-1:5960 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 2251 ms
+2018-12-17 19:05:20  [ http-bio-8080-exec-1:23877 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:05:20  [ http-bio-8080-exec-1:23900 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7708a2c9]
+2018-12-17 19:05:20  [ http-bio-8080-exec-1:23974 ] - [ INFO ]  {dataSource-1} inited
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24331 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24360 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7708a2c9]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24361 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7708a2c9]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24361 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7708a2c9]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24363 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24364 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7328a4a7]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24695 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24698 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7328a4a7]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24698 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7328a4a7]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24698 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7328a4a7]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24703 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24703 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24754 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24756 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24757 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097] from current transaction
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24759 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24759 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097] from current transaction
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24762 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24762 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097] from current transaction
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24766 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24766 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097]
+2018-12-17 19:05:21  [ http-bio-8080-exec-1:24766 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac097]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184838 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184839 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3daaeeae]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184844 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184846 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3daaeeae]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184846 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3daaeeae]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184846 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3daaeeae]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184846 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184847 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@370a1fad]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184851 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184852 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@370a1fad]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184852 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@370a1fad]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184852 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@370a1fad]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184852 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184853 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184865 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184873 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184873 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c] from current transaction
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184877 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184877 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c] from current transaction
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184884 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184884 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c] from current transaction
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184889 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184889 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c]
+2018-12-17 19:08:01  [ http-bio-8080-exec-3:184889 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4182e75c]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204430 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204430 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9c17fc]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204430 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204432 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9c17fc]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204432 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9c17fc]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204432 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9c17fc]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204432 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204432 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@322ff8b9]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204433 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204434 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@322ff8b9]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204434 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@322ff8b9]
+2018-12-17 19:08:21  [ http-bio-8080-exec-4:204434 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@322ff8b9]
+2018-12-17 19:08:36  [ http-bio-8080-exec-4:219335 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:08:36  [ http-bio-8080-exec-4:219336 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24]
+2018-12-17 19:08:36  [ http-bio-8080-exec-4:219340 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:08:36  [ http-bio-8080-exec-4:219343 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24]
+2018-12-17 19:09:17  [ http-bio-8080-exec-4:260769 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24] from current transaction
+2018-12-17 19:09:17  [ http-bio-8080-exec-4:260784 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24]
+2018-12-17 19:09:24  [ http-bio-8080-exec-4:267336 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24] from current transaction
+2018-12-17 19:09:24  [ http-bio-8080-exec-4:267350 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24]
+2018-12-17 19:09:26  [ http-bio-8080-exec-4:269057 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24] from current transaction
+2018-12-17 19:09:26  [ http-bio-8080-exec-4:269070 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24]
+2018-12-17 19:09:41  [ http-bio-8080-exec-4:284135 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24]
+2018-12-17 19:09:41  [ http-bio-8080-exec-4:284135 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ccebc24]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426607 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426607 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640bef1f]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426608 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426611 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640bef1f]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426612 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640bef1f]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426612 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@640bef1f]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426629 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426631 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5714ca68]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426632 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426633 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5714ca68]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426634 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5714ca68]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426634 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5714ca68]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426634 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426634 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426635 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426636 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426636 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb] from current transaction
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426639 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426639 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb] from current transaction
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426642 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426642 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb] from current transaction
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426647 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426647 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb]
+2018-12-17 19:12:03  [ http-bio-8080-exec-6:426647 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415723cb]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559880 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559880 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35ba081e]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559880 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559882 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35ba081e]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559882 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35ba081e]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559882 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35ba081e]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559882 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559882 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58f25a7b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559883 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559884 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58f25a7b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559884 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58f25a7b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559884 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58f25a7b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559884 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559884 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559885 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559891 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559898 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b] from current transaction
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559899 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559902 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b] from current transaction
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559906 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559906 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b] from current transaction
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559908 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559909 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b]
+2018-12-17 19:14:16  [ http-bio-8080-exec-8:559909 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e6857b]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597858 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597858 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fca31d2]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597859 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597874 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fca31d2]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597874 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fca31d2]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597874 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fca31d2]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597874 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597875 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b789db8]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597875 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597883 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b789db8]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597883 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b789db8]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597883 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b789db8]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597883 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597884 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597885 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597888 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597889 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93] from current transaction
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597891 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597891 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93] from current transaction
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597893 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597893 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93] from current transaction
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597902 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597902 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93]
+2018-12-17 19:14:54  [ http-bio-8080-exec-9:597903 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@761b3b93]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633198 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633198 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e677f]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633198 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633200 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e677f]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633200 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e677f]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633200 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e677f]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633200 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633200 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ff04e7a]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633201 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633202 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ff04e7a]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633202 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ff04e7a]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633202 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ff04e7a]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633203 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633203 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633203 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633206 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633206 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d] from current transaction
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633209 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633209 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d] from current transaction
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633211 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633211 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d] from current transaction
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633213 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633213 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d]
+2018-12-17 19:15:30  [ http-bio-8080-exec-10:633213 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fd9383d]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643639 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643639 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32f45dc7]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643639 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643648 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32f45dc7]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643648 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32f45dc7]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643648 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32f45dc7]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643648 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643648 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e9ca176]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643649 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643651 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e9ca176]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643651 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e9ca176]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643651 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e9ca176]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643652 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643652 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643653 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2edd631f] will be managed by Spring
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643654 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643654 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617] from current transaction
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643656 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643656 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617] from current transaction
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643658 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643658 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617] from current transaction
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643662 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643662 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617]
+2018-12-17 19:15:40  [ http-bio-8080-exec-10:643662 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@112e5617]
+2018-12-17 19:21:59  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-12-17 19:22:00  [ localhost-startStop-1:79 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Dec 17 19:22:00 CST 2018]; root of context hierarchy
+2018-12-17 19:22:00  [ localhost-startStop-1:183 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-12-17 19:22:00  [ localhost-startStop-1:347 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-redis.xml]
+2018-12-17 19:22:00  [ localhost-startStop-1:475 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-12-17 19:22:00  [ localhost-startStop-1:525 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-12-17 19:22:00  [ localhost-startStop-1:839 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdCatMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:840 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:840 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:841 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxCollectionMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:842 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxDeliveryAddressMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:843 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:843 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:844 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:845 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:845 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:848 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsContentMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:849 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:849 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderItemMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:849 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:849 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderNoMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:850 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopingCartMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:850 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:850 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-12-17 19:22:00  [ localhost-startStop-1:851 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdCatMapper' and 'com.ping.mapper.WxAdCatMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:852 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdMapper' and 'com.ping.mapper.WxAdMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:852 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:852 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxCollectionMapper' and 'com.ping.mapper.WxCollectionMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxDeliveryAddressMapper' and 'com.ping.mapper.WxDeliveryAddressMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsContentMapper' and 'com.ping.mapper.WxNewsContentMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:853 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsMapper' and 'com.ping.mapper.WxNewsMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:857 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderItemMapper' and 'com.ping.mapper.WxOrderItemMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:857 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderMapper' and 'com.ping.mapper.WxOrderMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:857 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderNoMapper' and 'com.ping.mapper.WxOrderNoMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:857 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopingCartMapper' and 'com.ping.mapper.WxShopingCartMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:857 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:857 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-12-17 19:22:00  [ localhost-startStop-1:919 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:22:01  [ localhost-startStop-1:1803 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-12-17 19:22:01  [ localhost-startStop-1:1805 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-12-17 19:22:03  [ localhost-startStop-1:3354 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3351 ms
+2018-12-17 19:22:03  [ localhost-startStop-1:3455 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-12-17 19:22:03  [ localhost-startStop-1:3459 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:22:03 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:22:03  [ localhost-startStop-1:3460 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-12-17 19:22:03  [ localhost-startStop-1:3764 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:22:04  [ localhost-startStop-1:4316 ] - [ INFO ]  Mapped "{[/address/addPage]}" onto public java.lang.String com.ping.controller.AddressController.addPage()
+2018-12-17 19:22:04  [ localhost-startStop-1:4318 ] - [ INFO ]  Mapped "{[/address/list]}" onto public java.lang.String com.ping.controller.AddressController.addressList(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:22:04  [ localhost-startStop-1:4318 ] - [ INFO ]  Mapped "{[/address/edit]}" onto public java.lang.String com.ping.controller.AddressController.addressEdit(java.lang.Long,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:22:04  [ localhost-startStop-1:4319 ] - [ INFO ]  Mapped "{[/address/default]}" onto public com.ping.pojo.WxDeliveryAddress com.ping.controller.AddressController.defaultAddress(javax.servlet.http.HttpSession)
+2018-12-17 19:22:04  [ localhost-startStop-1:4319 ] - [ INFO ]  Mapped "{[/address/getlist]}" onto public java.util.List<com.ping.pojo.WxDeliveryAddress> com.ping.controller.AddressController.getAddressList(javax.servlet.http.HttpSession)
+2018-12-17 19:22:04  [ localhost-startStop-1:4319 ] - [ INFO ]  Mapped "{[/address/add]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.addAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:22:04  [ localhost-startStop-1:4320 ] - [ INFO ]  Mapped "{[/address/update]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.updateAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:22:04  [ localhost-startStop-1:4320 ] - [ INFO ]  Mapped "{[/address/delete]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.deleteAddress(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:22:04  [ localhost-startStop-1:4321 ] - [ INFO ]  Mapped "{[/admin/{page}]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-12-17 19:22:04  [ localhost-startStop-1:4324 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-12-17 19:22:04  [ localhost-startStop-1:4325 ] - [ INFO ]  Mapped "{[/admin/item/cat/create]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-12-17 19:22:04  [ localhost-startStop-1:4325 ] - [ INFO ]  Mapped "{[/admin/item/cat/list]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-12-17 19:22:04  [ localhost-startStop-1:4325 ] - [ INFO ]  Mapped "{[/admin/item/cat/update]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-12-17 19:22:04  [ localhost-startStop-1:4326 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-12-17 19:22:04  [ localhost-startStop-1:4331 ] - [ INFO ]  Mapped "{[/admin/item/save]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-12-17 19:22:04  [ localhost-startStop-1:4332 ] - [ INFO ]  Mapped "{[/admin/item/list]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-12-17 19:22:04  [ localhost-startStop-1:4332 ] - [ INFO ]  Mapped "{[/admin/item/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-12-17 19:22:04  [ localhost-startStop-1:4333 ] - [ INFO ]  Mapped "{[/api/item/cat/list]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.ApiItemCatController.ItemCatList()
+2018-12-17 19:22:04  [ localhost-startStop-1:4334 ] - [ INFO ]  Mapped "{[/collection/add]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.addCollection(javax.servlet.http.HttpSession,com.ping.pojo.WxCollection) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4335 ] - [ INFO ]  Mapped "{[/collection/list]}" onto public java.lang.String com.ping.controller.CollectionController.collectionList(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4335 ] - [ INFO ]  Mapped "{[/collection/delete]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.deleteCollection(javax.servlet.http.HttpSession,java.lang.Long) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4336 ] - [ INFO ]  Mapped "{[/goods/list]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-12-17 19:22:04  [ localhost-startStop-1:4337 ] - [ INFO ]  Mapped "{[/index]}" onto public java.lang.String com.ping.controller.IndexController.index(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4338 ] - [ INFO ]  Mapped "{[/item/cat/list]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-12-17 19:22:04  [ localhost-startStop-1:4339 ] - [ INFO ]  Mapped "{[/item/{id}]}" onto public java.lang.String com.ping.controller.ItemController.itemDetail(java.lang.Long,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:22:04  [ localhost-startStop-1:4340 ] - [ INFO ]  Mapped "{[/item/list/like]}" onto public java.lang.String com.ping.controller.ItemController.ItemLikeList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4340 ] - [ INFO ]  Mapped "{[/item/list/{cid}]}" onto public java.lang.String com.ping.controller.ItemController.itemList(java.lang.Long,org.springframework.ui.Model)
+2018-12-17 19:22:04  [ localhost-startStop-1:4341 ] - [ INFO ]  Mapped "{[/login]}" onto public java.lang.String com.ping.controller.LoginController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4342 ] - [ INFO ]  Mapped "{[/news/list]}" onto public java.lang.String com.ping.controller.NewsController.newsList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4343 ] - [ INFO ]  Mapped "{[/news/{newsId}]}" onto public java.lang.String com.ping.controller.NewsController.getNews(java.lang.Long,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4344 ] - [ INFO ]  Mapped "{[/order/success]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-12-17 19:22:04  [ localhost-startStop-1:4344 ] - [ INFO ]  Mapped "{[/order/pay]}" onto public java.lang.String com.ping.controller.OrderController.confirmOrder(javax.servlet.http.HttpSession,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,java.lang.Long,java.lang.Integer) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4345 ] - [ INFO ]  Mapped "{[/order/payparam]}" onto public com.ping.util.WXResult com.ping.controller.OrderController.orderPay(javax.servlet.http.HttpSession,java.util.Map<java.lang.Long, java.lang.String>,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4346 ] - [ INFO ]  Mapped "{[/pic/upload]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-12-17 19:22:04  [ localhost-startStop-1:4347 ] - [ INFO ]  Mapped "{[/wx]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-12-17 19:22:04  [ localhost-startStop-1:4349 ] - [ INFO ]  Mapped "{[/shopingCart/count]}" onto public void com.ping.controller.ShopingCartController.getCount(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse)
+2018-12-17 19:22:04  [ localhost-startStop-1:4350 ] - [ INFO ]  Mapped "{[/shopingCart/delete]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.deleteShopingCart(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:22:04  [ localhost-startStop-1:4350 ] - [ INFO ]  Mapped "{[/shopingCart/add]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.addShopingCart(com.ping.pojo.WxShopingCart,javax.servlet.http.HttpSession)
+2018-12-17 19:22:04  [ localhost-startStop-1:4350 ] - [ INFO ]  Mapped "{[/shopingCart/list]}" onto public java.lang.String com.ping.controller.ShopingCartController.cartList(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:22:04  [ localhost-startStop-1:4351 ] - [ INFO ]  Mapped "{[/shopingCart/update]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.updateCart(javax.servlet.http.HttpSession,java.lang.Long,java.lang.Integer)
+2018-12-17 19:22:04  [ localhost-startStop-1:4351 ] - [ INFO ]  Mapped "{[/test/redis]}" onto public java.lang.String com.ping.controller.TestController.redisTest()
+2018-12-17 19:22:04  [ localhost-startStop-1:4352 ] - [ INFO ]  Mapped "{[/mine]}" onto public java.lang.String com.ping.controller.UserController.mine(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4353 ] - [ INFO ]  Mapped "{[/wx/config]}" onto public com.ping.util.WXResult com.ping.controller.WxController.getWxConfig(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4354 ] - [ INFO ]  Mapped "{[/message/sent]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-12-17 19:22:04  [ localhost-startStop-1:4357 ] - [ INFO ]  Mapped "{[/wx/login]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:22:04  [ localhost-startStop-1:4357 ] - [ INFO ]  Mapped "{[/wx/test]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-12-17 19:22:04  [ localhost-startStop-1:4357 ] - [ INFO ]  Mapped "{[/wx/wxconfig]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,java.lang.String)
+2018-12-17 19:22:04  [ localhost-startStop-1:4358 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-12-17 19:22:04  [ localhost-startStop-1:4358 ] - [ INFO ]  Mapped "{[/wx/payNotify]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-12-17 19:22:04  [ localhost-startStop-1:4358 ] - [ INFO ]  Mapped "{[/wx/orderQuery]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-12-17 19:22:05  [ localhost-startStop-1:5125 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:22:03 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:22:05  [ localhost-startStop-1:5263 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:22:03 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:22:05  [ localhost-startStop-1:5596 ] - [ INFO ]  Mapped URL path [/wxmall/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-17 19:22:05  [ localhost-startStop-1:5599 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-12-17 19:22:05  [ localhost-startStop-1:5602 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-12-17 19:22:05  [ localhost-startStop-1:5604 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-12-17 19:22:05  [ localhost-startStop-1:5607 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-12-17 19:22:05  [ localhost-startStop-1:5609 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-12-17 19:22:05  [ localhost-startStop-1:5612 ] - [ INFO ]  Mapped URL path [/jquery-weui/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-12-17 19:22:05  [ localhost-startStop-1:5615 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-12-17 19:22:05  [ localhost-startStop-1:5618 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-12-17 19:22:05  [ localhost-startStop-1:5620 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#9'
+2018-12-17 19:22:05  [ localhost-startStop-1:5785 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 2329 ms
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:44564 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:44579 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d53f16c]
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:44659 ] - [ INFO ]  {dataSource-1} inited
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:45007 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2d006262] will be managed by Spring
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:45064 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d53f16c]
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:45064 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d53f16c]
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:45064 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d53f16c]
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:45067 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:22:44  [ http-bio-8080-exec-1:45067 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72833ee5]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45139 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2d006262] will be managed by Spring
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45140 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72833ee5]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45141 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72833ee5]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45141 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72833ee5]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45144 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45144 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45177 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@2d006262] will be managed by Spring
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45179 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45179 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0] from current transaction
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45181 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45181 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0] from current transaction
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45181 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45182 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0] from current transaction
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45182 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45182 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0]
+2018-12-17 19:22:45  [ http-bio-8080-exec-1:45182 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@262ecce0]
+2018-12-17 19:25:10  [ localhost-startStop-1:1 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-12-17 19:25:10  [ localhost-startStop-1:98 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Dec 17 19:25:10 CST 2018]; root of context hierarchy
+2018-12-17 19:25:11  [ localhost-startStop-1:191 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-12-17 19:25:11  [ localhost-startStop-1:361 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-redis.xml]
+2018-12-17 19:25:11  [ localhost-startStop-1:511 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-12-17 19:25:11  [ localhost-startStop-1:562 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-12-17 19:25:11  [ localhost-startStop-1:918 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdCatMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:918 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:919 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:919 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxCollectionMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:920 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxDeliveryAddressMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:920 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:921 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:921 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:921 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:922 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:922 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsContentMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:923 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:923 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderItemMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:923 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:924 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderNoMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:924 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopingCartMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:924 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:925 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-12-17 19:25:11  [ localhost-startStop-1:926 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdCatMapper' and 'com.ping.mapper.WxAdCatMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:928 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdMapper' and 'com.ping.mapper.WxAdMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:928 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxCollectionMapper' and 'com.ping.mapper.WxCollectionMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxDeliveryAddressMapper' and 'com.ping.mapper.WxDeliveryAddressMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:929 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsContentMapper' and 'com.ping.mapper.WxNewsContentMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:930 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsMapper' and 'com.ping.mapper.WxNewsMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:930 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderItemMapper' and 'com.ping.mapper.WxOrderItemMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:930 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderMapper' and 'com.ping.mapper.WxOrderMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:930 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderNoMapper' and 'com.ping.mapper.WxOrderNoMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:930 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopingCartMapper' and 'com.ping.mapper.WxShopingCartMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:930 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:930 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-12-17 19:25:11  [ localhost-startStop-1:1006 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:25:12  [ localhost-startStop-1:2103 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-12-17 19:25:13  [ localhost-startStop-1:2105 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-12-17 19:25:14  [ localhost-startStop-1:3583 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3582 ms
+2018-12-17 19:25:14  [ localhost-startStop-1:3679 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-12-17 19:25:14  [ localhost-startStop-1:3682 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:25:14 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:25:14  [ localhost-startStop-1:3683 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-12-17 19:25:14  [ localhost-startStop-1:3931 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:25:15  [ localhost-startStop-1:4402 ] - [ INFO ]  Mapped "{[/address/getlist]}" onto public java.util.List<com.ping.pojo.WxDeliveryAddress> com.ping.controller.AddressController.getAddressList(javax.servlet.http.HttpSession)
+2018-12-17 19:25:15  [ localhost-startStop-1:4403 ] - [ INFO ]  Mapped "{[/address/add]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.addAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:25:15  [ localhost-startStop-1:4404 ] - [ INFO ]  Mapped "{[/address/update]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.updateAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:25:15  [ localhost-startStop-1:4404 ] - [ INFO ]  Mapped "{[/address/delete]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.deleteAddress(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:25:15  [ localhost-startStop-1:4404 ] - [ INFO ]  Mapped "{[/address/addPage]}" onto public java.lang.String com.ping.controller.AddressController.addPage()
+2018-12-17 19:25:15  [ localhost-startStop-1:4405 ] - [ INFO ]  Mapped "{[/address/edit]}" onto public java.lang.String com.ping.controller.AddressController.addressEdit(java.lang.Long,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:25:15  [ localhost-startStop-1:4405 ] - [ INFO ]  Mapped "{[/address/list]}" onto public java.lang.String com.ping.controller.AddressController.addressList(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:25:15  [ localhost-startStop-1:4405 ] - [ INFO ]  Mapped "{[/address/default]}" onto public com.ping.pojo.WxDeliveryAddress com.ping.controller.AddressController.defaultAddress(javax.servlet.http.HttpSession)
+2018-12-17 19:25:15  [ localhost-startStop-1:4407 ] - [ INFO ]  Mapped "{[/admin/{page}]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-12-17 19:25:15  [ localhost-startStop-1:4409 ] - [ INFO ]  Mapped "{[/admin/item/cat/update]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-12-17 19:25:15  [ localhost-startStop-1:4409 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-12-17 19:25:15  [ localhost-startStop-1:4409 ] - [ INFO ]  Mapped "{[/admin/item/cat/create]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-12-17 19:25:15  [ localhost-startStop-1:4410 ] - [ INFO ]  Mapped "{[/admin/item/cat/list]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-12-17 19:25:15  [ localhost-startStop-1:4410 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-12-17 19:25:15  [ localhost-startStop-1:4414 ] - [ INFO ]  Mapped "{[/admin/item/save]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-12-17 19:25:15  [ localhost-startStop-1:4415 ] - [ INFO ]  Mapped "{[/admin/item/list]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-12-17 19:25:15  [ localhost-startStop-1:4415 ] - [ INFO ]  Mapped "{[/admin/item/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-12-17 19:25:15  [ localhost-startStop-1:4417 ] - [ INFO ]  Mapped "{[/api/item/cat/list]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.ApiItemCatController.ItemCatList()
+2018-12-17 19:25:15  [ localhost-startStop-1:4418 ] - [ INFO ]  Mapped "{[/collection/add]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.addCollection(javax.servlet.http.HttpSession,com.ping.pojo.WxCollection) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4419 ] - [ INFO ]  Mapped "{[/collection/delete]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.deleteCollection(javax.servlet.http.HttpSession,java.lang.Long) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4419 ] - [ INFO ]  Mapped "{[/collection/list]}" onto public java.lang.String com.ping.controller.CollectionController.collectionList(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4420 ] - [ INFO ]  Mapped "{[/goods/list]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-12-17 19:25:15  [ localhost-startStop-1:4421 ] - [ INFO ]  Mapped "{[/index]}" onto public java.lang.String com.ping.controller.IndexController.index(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4422 ] - [ INFO ]  Mapped "{[/item/cat/list]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-12-17 19:25:15  [ localhost-startStop-1:4424 ] - [ INFO ]  Mapped "{[/item/list/{cid}]}" onto public java.lang.String com.ping.controller.ItemController.itemList(java.lang.Long,org.springframework.ui.Model)
+2018-12-17 19:25:15  [ localhost-startStop-1:4425 ] - [ INFO ]  Mapped "{[/item/{id}]}" onto public java.lang.String com.ping.controller.ItemController.itemDetail(java.lang.Long,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:25:15  [ localhost-startStop-1:4425 ] - [ INFO ]  Mapped "{[/item/list/like]}" onto public java.lang.String com.ping.controller.ItemController.ItemLikeList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4426 ] - [ INFO ]  Mapped "{[/login]}" onto public java.lang.String com.ping.controller.LoginController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4427 ] - [ INFO ]  Mapped "{[/news/list]}" onto public java.lang.String com.ping.controller.NewsController.newsList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4428 ] - [ INFO ]  Mapped "{[/news/{newsId}]}" onto public java.lang.String com.ping.controller.NewsController.getNews(java.lang.Long,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4430 ] - [ INFO ]  Mapped "{[/order/success]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-12-17 19:25:15  [ localhost-startStop-1:4430 ] - [ INFO ]  Mapped "{[/order/pay]}" onto public java.lang.String com.ping.controller.OrderController.confirmOrder(javax.servlet.http.HttpSession,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,java.lang.Long,java.lang.Integer) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4431 ] - [ INFO ]  Mapped "{[/order/payparam]}" onto public com.ping.util.WXResult com.ping.controller.OrderController.orderPay(javax.servlet.http.HttpSession,java.util.Map<java.lang.Long, java.lang.String>,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4432 ] - [ INFO ]  Mapped "{[/pic/upload]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-12-17 19:25:15  [ localhost-startStop-1:4434 ] - [ INFO ]  Mapped "{[/wx]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-12-17 19:25:15  [ localhost-startStop-1:4437 ] - [ INFO ]  Mapped "{[/shopingCart/count]}" onto public void com.ping.controller.ShopingCartController.getCount(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse)
+2018-12-17 19:25:15  [ localhost-startStop-1:4437 ] - [ INFO ]  Mapped "{[/shopingCart/update]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.updateCart(javax.servlet.http.HttpSession,java.lang.Long,java.lang.Integer)
+2018-12-17 19:25:15  [ localhost-startStop-1:4438 ] - [ INFO ]  Mapped "{[/shopingCart/add]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.addShopingCart(com.ping.pojo.WxShopingCart,javax.servlet.http.HttpSession)
+2018-12-17 19:25:15  [ localhost-startStop-1:4438 ] - [ INFO ]  Mapped "{[/shopingCart/list]}" onto public java.lang.String com.ping.controller.ShopingCartController.cartList(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:25:15  [ localhost-startStop-1:4438 ] - [ INFO ]  Mapped "{[/shopingCart/delete]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.deleteShopingCart(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:25:15  [ localhost-startStop-1:4439 ] - [ INFO ]  Mapped "{[/test/redis]}" onto public java.lang.String com.ping.controller.TestController.redisTest()
+2018-12-17 19:25:15  [ localhost-startStop-1:4440 ] - [ INFO ]  Mapped "{[/mine]}" onto public java.lang.String com.ping.controller.UserController.mine(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4441 ] - [ INFO ]  Mapped "{[/wx/config]}" onto public com.ping.util.WXResult com.ping.controller.WxController.getWxConfig(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4442 ] - [ INFO ]  Mapped "{[/message/sent]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-12-17 19:25:15  [ localhost-startStop-1:4444 ] - [ INFO ]  Mapped "{[/wx/wxconfig]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,java.lang.String)
+2018-12-17 19:25:15  [ localhost-startStop-1:4444 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-12-17 19:25:15  [ localhost-startStop-1:4445 ] - [ INFO ]  Mapped "{[/wx/payNotify]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-12-17 19:25:15  [ localhost-startStop-1:4445 ] - [ INFO ]  Mapped "{[/wx/orderQuery]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-12-17 19:25:15  [ localhost-startStop-1:4445 ] - [ INFO ]  Mapped "{[/wx/login]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:25:15  [ localhost-startStop-1:4446 ] - [ INFO ]  Mapped "{[/wx/test]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-12-17 19:25:16  [ localhost-startStop-1:5234 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:25:14 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:25:16  [ localhost-startStop-1:5367 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:25:14 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:25:16  [ localhost-startStop-1:5671 ] - [ INFO ]  Mapped URL path [/wxmall/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-17 19:25:16  [ localhost-startStop-1:5674 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-12-17 19:25:16  [ localhost-startStop-1:5678 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-12-17 19:25:16  [ localhost-startStop-1:5681 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-12-17 19:25:16  [ localhost-startStop-1:5684 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-12-17 19:25:16  [ localhost-startStop-1:5688 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-12-17 19:25:16  [ localhost-startStop-1:5691 ] - [ INFO ]  Mapped URL path [/jquery-weui/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-12-17 19:25:16  [ localhost-startStop-1:5695 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-12-17 19:25:16  [ localhost-startStop-1:5698 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-12-17 19:25:16  [ localhost-startStop-1:5701 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#9'
+2018-12-17 19:25:16  [ localhost-startStop-1:5860 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 2181 ms
+2018-12-17 19:25:20  [ http-bio-8080-exec-1:9882 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:25:20  [ http-bio-8080-exec-1:9900 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64850618]
+2018-12-17 19:25:20  [ http-bio-8080-exec-1:10003 ] - [ INFO ]  {dataSource-1} inited
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10330 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce2c2c0] will be managed by Spring
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10370 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64850618]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10371 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64850618]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10371 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64850618]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10374 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10374 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c0b8dc]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10450 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce2c2c0] will be managed by Spring
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10451 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c0b8dc]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10451 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c0b8dc]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10451 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c0b8dc]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10454 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10455 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10486 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce2c2c0] will be managed by Spring
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10488 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10488 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b] from current transaction
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10489 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10489 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b] from current transaction
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10489 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10490 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b] from current transaction
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10490 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10490 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b]
+2018-12-17 19:25:21  [ http-bio-8080-exec-1:10490 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7854ef4b]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14709 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14709 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bf36d70]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14709 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce2c2c0] will be managed by Spring
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14715 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bf36d70]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14715 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bf36d70]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14715 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bf36d70]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14715 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14715 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@577d4c5]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14721 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce2c2c0] will be managed by Spring
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14722 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@577d4c5]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14723 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@577d4c5]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14723 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@577d4c5]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14723 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14723 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14725 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce2c2c0] will be managed by Spring
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14726 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14726 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052] from current transaction
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14728 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14728 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052] from current transaction
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14729 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14729 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052] from current transaction
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14729 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14729 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052]
+2018-12-17 19:25:25  [ http-bio-8080-exec-2:14729 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37611052]
+2018-12-17 19:29:58  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-12-17 19:29:58  [ localhost-startStop-1:61 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Dec 17 19:29:58 CST 2018]; root of context hierarchy
+2018-12-17 19:29:58  [ localhost-startStop-1:118 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-12-17 19:29:58  [ localhost-startStop-1:282 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-redis.xml]
+2018-12-17 19:29:58  [ localhost-startStop-1:417 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-12-17 19:29:58  [ localhost-startStop-1:463 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-12-17 19:29:58  [ localhost-startStop-1:731 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdCatMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:732 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:732 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:732 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxCollectionMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:733 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxDeliveryAddressMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:733 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:733 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:734 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:734 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:734 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:735 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsContentMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:735 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:735 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderItemMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:736 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:736 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderNoMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:737 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopingCartMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:737 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:737 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-12-17 19:29:58  [ localhost-startStop-1:738 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdCatMapper' and 'com.ping.mapper.WxAdCatMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:740 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdMapper' and 'com.ping.mapper.WxAdMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:740 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:741 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxCollectionMapper' and 'com.ping.mapper.WxCollectionMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:741 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxDeliveryAddressMapper' and 'com.ping.mapper.WxDeliveryAddressMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:741 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:741 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:741 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:741 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:741 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:742 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsContentMapper' and 'com.ping.mapper.WxNewsContentMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:742 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsMapper' and 'com.ping.mapper.WxNewsMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:742 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderItemMapper' and 'com.ping.mapper.WxOrderItemMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:742 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderMapper' and 'com.ping.mapper.WxOrderMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:742 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderNoMapper' and 'com.ping.mapper.WxOrderNoMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:742 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopingCartMapper' and 'com.ping.mapper.WxShopingCartMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:743 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:743 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-12-17 19:29:58  [ localhost-startStop-1:796 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:29:59  [ localhost-startStop-1:1871 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-12-17 19:29:59  [ localhost-startStop-1:1873 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-12-17 19:30:01  [ localhost-startStop-1:3306 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3305 ms
+2018-12-17 19:30:01  [ localhost-startStop-1:3403 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-12-17 19:30:01  [ localhost-startStop-1:3407 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:30:01 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:30:01  [ localhost-startStop-1:3408 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-12-17 19:30:01  [ localhost-startStop-1:3679 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:30:02  [ localhost-startStop-1:4258 ] - [ INFO ]  Mapped "{[/address/addPage]}" onto public java.lang.String com.ping.controller.AddressController.addPage()
+2018-12-17 19:30:02  [ localhost-startStop-1:4260 ] - [ INFO ]  Mapped "{[/address/list]}" onto public java.lang.String com.ping.controller.AddressController.addressList(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:30:02  [ localhost-startStop-1:4260 ] - [ INFO ]  Mapped "{[/address/edit]}" onto public java.lang.String com.ping.controller.AddressController.addressEdit(java.lang.Long,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:30:02  [ localhost-startStop-1:4260 ] - [ INFO ]  Mapped "{[/address/default]}" onto public com.ping.pojo.WxDeliveryAddress com.ping.controller.AddressController.defaultAddress(javax.servlet.http.HttpSession)
+2018-12-17 19:30:02  [ localhost-startStop-1:4261 ] - [ INFO ]  Mapped "{[/address/getlist]}" onto public java.util.List<com.ping.pojo.WxDeliveryAddress> com.ping.controller.AddressController.getAddressList(javax.servlet.http.HttpSession)
+2018-12-17 19:30:02  [ localhost-startStop-1:4261 ] - [ INFO ]  Mapped "{[/address/add]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.addAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:30:02  [ localhost-startStop-1:4262 ] - [ INFO ]  Mapped "{[/address/update]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.updateAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:30:02  [ localhost-startStop-1:4262 ] - [ INFO ]  Mapped "{[/address/delete]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.deleteAddress(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:30:02  [ localhost-startStop-1:4263 ] - [ INFO ]  Mapped "{[/admin/{page}]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-12-17 19:30:02  [ localhost-startStop-1:4266 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-12-17 19:30:02  [ localhost-startStop-1:4266 ] - [ INFO ]  Mapped "{[/admin/item/cat/create]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-12-17 19:30:02  [ localhost-startStop-1:4267 ] - [ INFO ]  Mapped "{[/admin/item/cat/list]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-12-17 19:30:02  [ localhost-startStop-1:4267 ] - [ INFO ]  Mapped "{[/admin/item/cat/update]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-12-17 19:30:02  [ localhost-startStop-1:4268 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-12-17 19:30:02  [ localhost-startStop-1:4277 ] - [ INFO ]  Mapped "{[/admin/item/save]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-12-17 19:30:02  [ localhost-startStop-1:4278 ] - [ INFO ]  Mapped "{[/admin/item/list]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-12-17 19:30:02  [ localhost-startStop-1:4278 ] - [ INFO ]  Mapped "{[/admin/item/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-12-17 19:30:02  [ localhost-startStop-1:4279 ] - [ INFO ]  Mapped "{[/api/item/cat/list]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.ApiItemCatController.ItemCatList()
+2018-12-17 19:30:02  [ localhost-startStop-1:4281 ] - [ INFO ]  Mapped "{[/collection/list]}" onto public java.lang.String com.ping.controller.CollectionController.collectionList(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4281 ] - [ INFO ]  Mapped "{[/collection/add]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.addCollection(javax.servlet.http.HttpSession,com.ping.pojo.WxCollection) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4282 ] - [ INFO ]  Mapped "{[/collection/delete]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.deleteCollection(javax.servlet.http.HttpSession,java.lang.Long) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4283 ] - [ INFO ]  Mapped "{[/goods/list]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-12-17 19:30:02  [ localhost-startStop-1:4283 ] - [ INFO ]  Mapped "{[/index]}" onto public java.lang.String com.ping.controller.IndexController.index(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4284 ] - [ INFO ]  Mapped "{[/item/cat/list]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-12-17 19:30:02  [ localhost-startStop-1:4286 ] - [ INFO ]  Mapped "{[/item/{id}]}" onto public java.lang.String com.ping.controller.ItemController.itemDetail(java.lang.Long,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:30:02  [ localhost-startStop-1:4286 ] - [ INFO ]  Mapped "{[/item/list/like]}" onto public java.lang.String com.ping.controller.ItemController.ItemLikeList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4287 ] - [ INFO ]  Mapped "{[/item/list/{cid}]}" onto public java.lang.String com.ping.controller.ItemController.itemList(java.lang.Long,org.springframework.ui.Model)
+2018-12-17 19:30:02  [ localhost-startStop-1:4288 ] - [ INFO ]  Mapped "{[/login]}" onto public java.lang.String com.ping.controller.LoginController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4289 ] - [ INFO ]  Mapped "{[/news/list]}" onto public java.lang.String com.ping.controller.NewsController.newsList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4289 ] - [ INFO ]  Mapped "{[/news/{newsId}]}" onto public java.lang.String com.ping.controller.NewsController.getNews(java.lang.Long,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4291 ] - [ INFO ]  Mapped "{[/order/success]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-12-17 19:30:02  [ localhost-startStop-1:4291 ] - [ INFO ]  Mapped "{[/order/pay]}" onto public java.lang.String com.ping.controller.OrderController.confirmOrder(javax.servlet.http.HttpSession,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,java.lang.Long,java.lang.Integer) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4292 ] - [ INFO ]  Mapped "{[/order/payparam]}" onto public com.ping.util.WXResult com.ping.controller.OrderController.orderPay(javax.servlet.http.HttpSession,java.util.Map<java.lang.Long, java.lang.String>,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4294 ] - [ INFO ]  Mapped "{[/pic/upload]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-12-17 19:30:02  [ localhost-startStop-1:4295 ] - [ INFO ]  Mapped "{[/wx]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-12-17 19:30:02  [ localhost-startStop-1:4297 ] - [ INFO ]  Mapped "{[/shopingCart/count]}" onto public void com.ping.controller.ShopingCartController.getCount(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse)
+2018-12-17 19:30:02  [ localhost-startStop-1:4298 ] - [ INFO ]  Mapped "{[/shopingCart/delete]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.deleteShopingCart(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:30:02  [ localhost-startStop-1:4298 ] - [ INFO ]  Mapped "{[/shopingCart/add]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.addShopingCart(com.ping.pojo.WxShopingCart,javax.servlet.http.HttpSession)
+2018-12-17 19:30:02  [ localhost-startStop-1:4299 ] - [ INFO ]  Mapped "{[/shopingCart/list]}" onto public java.lang.String com.ping.controller.ShopingCartController.cartList(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:30:02  [ localhost-startStop-1:4299 ] - [ INFO ]  Mapped "{[/shopingCart/update]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.updateCart(javax.servlet.http.HttpSession,java.lang.Long,java.lang.Integer)
+2018-12-17 19:30:02  [ localhost-startStop-1:4300 ] - [ INFO ]  Mapped "{[/test/redis]}" onto public java.lang.String com.ping.controller.TestController.redisTest()
+2018-12-17 19:30:02  [ localhost-startStop-1:4300 ] - [ INFO ]  Mapped "{[/mine]}" onto public java.lang.String com.ping.controller.UserController.mine(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4301 ] - [ INFO ]  Mapped "{[/wx/config]}" onto public com.ping.util.WXResult com.ping.controller.WxController.getWxConfig(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4302 ] - [ INFO ]  Mapped "{[/message/sent]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-12-17 19:30:02  [ localhost-startStop-1:4304 ] - [ INFO ]  Mapped "{[/wx/login]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:30:02  [ localhost-startStop-1:4305 ] - [ INFO ]  Mapped "{[/wx/test]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-12-17 19:30:02  [ localhost-startStop-1:4305 ] - [ INFO ]  Mapped "{[/wx/wxconfig]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,java.lang.String)
+2018-12-17 19:30:02  [ localhost-startStop-1:4305 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-12-17 19:30:02  [ localhost-startStop-1:4306 ] - [ INFO ]  Mapped "{[/wx/payNotify]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-12-17 19:30:02  [ localhost-startStop-1:4306 ] - [ INFO ]  Mapped "{[/wx/orderQuery]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-12-17 19:30:03  [ localhost-startStop-1:5408 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:30:01 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:30:03  [ localhost-startStop-1:5539 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:30:01 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:30:03  [ localhost-startStop-1:5874 ] - [ INFO ]  Mapped URL path [/wxmall/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-17 19:30:03  [ localhost-startStop-1:5877 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-12-17 19:30:03  [ localhost-startStop-1:5881 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-12-17 19:30:03  [ localhost-startStop-1:5884 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-12-17 19:30:03  [ localhost-startStop-1:5887 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-12-17 19:30:03  [ localhost-startStop-1:5890 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-12-17 19:30:03  [ localhost-startStop-1:5893 ] - [ INFO ]  Mapped URL path [/jquery-weui/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-12-17 19:30:03  [ localhost-startStop-1:5896 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-12-17 19:30:03  [ localhost-startStop-1:5899 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-12-17 19:30:03  [ localhost-startStop-1:5902 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#9'
+2018-12-17 19:30:04  [ localhost-startStop-1:6020 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 2617 ms
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14289 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14304 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c8c9a50]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14365 ] - [ INFO ]  {dataSource-1} inited
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14689 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c6c19c1] will be managed by Spring
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14723 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c8c9a50]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14724 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c8c9a50]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14724 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c8c9a50]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14729 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14730 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7e9667]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14837 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c6c19c1] will be managed by Spring
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14839 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7e9667]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14840 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7e9667]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14840 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7e9667]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14844 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14845 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14897 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c6c19c1] will be managed by Spring
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14900 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14900 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7] from current transaction
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14903 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14903 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7] from current transaction
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14905 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14905 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7] from current transaction
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14905 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14906 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7]
+2018-12-17 19:30:12  [ http-bio-8080-exec-1:14906 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4abfacc7]
+2018-12-17 19:33:47  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-12-17 19:33:47  [ localhost-startStop-1:95 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Dec 17 19:33:47 CST 2018]; root of context hierarchy
+2018-12-17 19:33:47  [ localhost-startStop-1:179 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-12-17 19:33:47  [ localhost-startStop-1:369 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-redis.xml]
+2018-12-17 19:33:48  [ localhost-startStop-1:530 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-12-17 19:33:48  [ localhost-startStop-1:575 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-12-17 19:33:48  [ localhost-startStop-1:921 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdCatMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:922 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxAdMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:923 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:923 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxCollectionMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:924 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxDeliveryAddressMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:924 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:925 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:925 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:926 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:926 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:926 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsContentMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:927 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxNewsMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:927 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderItemMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:928 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:928 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxOrderNoMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:929 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopingCartMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:929 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:930 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-12-17 19:33:48  [ localhost-startStop-1:931 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdCatMapper' and 'com.ping.mapper.WxAdCatMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:933 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxAdMapper' and 'com.ping.mapper.WxAdMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:933 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:934 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxCollectionMapper' and 'com.ping.mapper.WxCollectionMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:934 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxDeliveryAddressMapper' and 'com.ping.mapper.WxDeliveryAddressMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:934 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:934 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:934 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:934 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:934 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:935 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsContentMapper' and 'com.ping.mapper.WxNewsContentMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:935 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxNewsMapper' and 'com.ping.mapper.WxNewsMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:938 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderItemMapper' and 'com.ping.mapper.WxOrderItemMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:938 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderMapper' and 'com.ping.mapper.WxOrderMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:938 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxOrderNoMapper' and 'com.ping.mapper.WxOrderNoMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:938 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopingCartMapper' and 'com.ping.mapper.WxShopingCartMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:939 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:939 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-12-17 19:33:48  [ localhost-startStop-1:1012 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:33:49  [ localhost-startStop-1:2056 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-12-17 19:33:49  [ localhost-startStop-1:2058 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-12-17 19:33:51  [ localhost-startStop-1:3584 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3583 ms
+2018-12-17 19:33:51  [ localhost-startStop-1:3664 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-12-17 19:33:51  [ localhost-startStop-1:3668 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:33:51 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:33:51  [ localhost-startStop-1:3668 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-12-17 19:33:51  [ localhost-startStop-1:3941 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 19:33:52  [ localhost-startStop-1:4447 ] - [ INFO ]  Mapped "{[/address/getlist]}" onto public java.util.List<com.ping.pojo.WxDeliveryAddress> com.ping.controller.AddressController.getAddressList(javax.servlet.http.HttpSession)
+2018-12-17 19:33:52  [ localhost-startStop-1:4449 ] - [ INFO ]  Mapped "{[/address/add]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.addAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:33:52  [ localhost-startStop-1:4449 ] - [ INFO ]  Mapped "{[/address/update]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.updateAddress(javax.servlet.http.HttpSession,com.ping.pojo.WxDeliveryAddress,java.lang.String)
+2018-12-17 19:33:52  [ localhost-startStop-1:4450 ] - [ INFO ]  Mapped "{[/address/delete]}" onto public com.ping.util.WXResult com.ping.controller.AddressController.deleteAddress(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:33:52  [ localhost-startStop-1:4450 ] - [ INFO ]  Mapped "{[/address/addPage]}" onto public java.lang.String com.ping.controller.AddressController.addPage()
+2018-12-17 19:33:52  [ localhost-startStop-1:4450 ] - [ INFO ]  Mapped "{[/address/list]}" onto public java.lang.String com.ping.controller.AddressController.addressList(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:33:52  [ localhost-startStop-1:4450 ] - [ INFO ]  Mapped "{[/address/edit]}" onto public java.lang.String com.ping.controller.AddressController.addressEdit(java.lang.Long,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2018-12-17 19:33:52  [ localhost-startStop-1:4451 ] - [ INFO ]  Mapped "{[/address/default]}" onto public com.ping.pojo.WxDeliveryAddress com.ping.controller.AddressController.defaultAddress(javax.servlet.http.HttpSession)
+2018-12-17 19:33:52  [ localhost-startStop-1:4452 ] - [ INFO ]  Mapped "{[/admin/{page}]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-12-17 19:33:52  [ localhost-startStop-1:4454 ] - [ INFO ]  Mapped "{[/admin/item/cat/update]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-12-17 19:33:52  [ localhost-startStop-1:4454 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-12-17 19:33:52  [ localhost-startStop-1:4455 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-12-17 19:33:52  [ localhost-startStop-1:4455 ] - [ INFO ]  Mapped "{[/admin/item/cat/create]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-12-17 19:33:52  [ localhost-startStop-1:4455 ] - [ INFO ]  Mapped "{[/admin/item/cat/list]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-12-17 19:33:52  [ localhost-startStop-1:4460 ] - [ INFO ]  Mapped "{[/admin/item/list]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-12-17 19:33:52  [ localhost-startStop-1:4460 ] - [ INFO ]  Mapped "{[/admin/item/delete]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-12-17 19:33:52  [ localhost-startStop-1:4461 ] - [ INFO ]  Mapped "{[/admin/item/save]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-12-17 19:33:52  [ localhost-startStop-1:4462 ] - [ INFO ]  Mapped "{[/api/item/cat/list]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.ApiItemCatController.ItemCatList()
+2018-12-17 19:33:52  [ localhost-startStop-1:4464 ] - [ INFO ]  Mapped "{[/collection/delete]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.deleteCollection(javax.servlet.http.HttpSession,java.lang.Long) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4464 ] - [ INFO ]  Mapped "{[/collection/add]}" onto public com.ping.util.WXResult com.ping.controller.CollectionController.addCollection(javax.servlet.http.HttpSession,com.ping.pojo.WxCollection) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4464 ] - [ INFO ]  Mapped "{[/collection/list]}" onto public java.lang.String com.ping.controller.CollectionController.collectionList(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4465 ] - [ INFO ]  Mapped "{[/goods/list]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-12-17 19:33:52  [ localhost-startStop-1:4466 ] - [ INFO ]  Mapped "{[/index]}" onto public java.lang.String com.ping.controller.IndexController.index(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4467 ] - [ INFO ]  Mapped "{[/item/cat/list]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-12-17 19:33:52  [ localhost-startStop-1:4468 ] - [ INFO ]  Mapped "{[/item/list/{cid}]}" onto public java.lang.String com.ping.controller.ItemController.itemList(java.lang.Long,org.springframework.ui.Model)
+2018-12-17 19:33:52  [ localhost-startStop-1:4469 ] - [ INFO ]  Mapped "{[/item/{id}]}" onto public java.lang.String com.ping.controller.ItemController.itemDetail(java.lang.Long,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:33:52  [ localhost-startStop-1:4469 ] - [ INFO ]  Mapped "{[/item/list/like]}" onto public java.lang.String com.ping.controller.ItemController.ItemLikeList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4470 ] - [ INFO ]  Mapped "{[/login]}" onto public java.lang.String com.ping.controller.LoginController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4471 ] - [ INFO ]  Mapped "{[/news/list]}" onto public java.lang.String com.ping.controller.NewsController.newsList(org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4471 ] - [ INFO ]  Mapped "{[/news/{newsId}]}" onto public java.lang.String com.ping.controller.NewsController.getNews(java.lang.Long,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4473 ] - [ INFO ]  Mapped "{[/order/success]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-12-17 19:33:52  [ localhost-startStop-1:4473 ] - [ INFO ]  Mapped "{[/order/pay]}" onto public java.lang.String com.ping.controller.OrderController.confirmOrder(javax.servlet.http.HttpSession,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,java.lang.Long,java.lang.Integer) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4474 ] - [ INFO ]  Mapped "{[/order/payparam]}" onto public com.ping.util.WXResult com.ping.controller.OrderController.orderPay(javax.servlet.http.HttpSession,java.util.Map<java.lang.Long, java.lang.String>,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4474 ] - [ INFO ]  Mapped "{[/pic/upload]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-12-17 19:33:52  [ localhost-startStop-1:4475 ] - [ INFO ]  Mapped "{[/wx]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-12-17 19:33:52  [ localhost-startStop-1:4477 ] - [ INFO ]  Mapped "{[/shopingCart/count]}" onto public void com.ping.controller.ShopingCartController.getCount(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse)
+2018-12-17 19:33:52  [ localhost-startStop-1:4478 ] - [ INFO ]  Mapped "{[/shopingCart/update]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.updateCart(javax.servlet.http.HttpSession,java.lang.Long,java.lang.Integer)
+2018-12-17 19:33:52  [ localhost-startStop-1:4478 ] - [ INFO ]  Mapped "{[/shopingCart/delete]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.deleteShopingCart(javax.servlet.http.HttpSession,java.lang.Long)
+2018-12-17 19:33:52  [ localhost-startStop-1:4478 ] - [ INFO ]  Mapped "{[/shopingCart/add]}" onto public com.ping.util.WXResult com.ping.controller.ShopingCartController.addShopingCart(com.ping.pojo.WxShopingCart,javax.servlet.http.HttpSession)
+2018-12-17 19:33:52  [ localhost-startStop-1:4479 ] - [ INFO ]  Mapped "{[/shopingCart/list]}" onto public java.lang.String com.ping.controller.ShopingCartController.cartList(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:33:52  [ localhost-startStop-1:4479 ] - [ INFO ]  Mapped "{[/test/redis]}" onto public java.lang.String com.ping.controller.TestController.redisTest()
+2018-12-17 19:33:52  [ localhost-startStop-1:4480 ] - [ INFO ]  Mapped "{[/mine]}" onto public java.lang.String com.ping.controller.UserController.mine(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4481 ] - [ INFO ]  Mapped "{[/wx/config]}" onto public com.ping.util.WXResult com.ping.controller.WxController.getWxConfig(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4482 ] - [ INFO ]  Mapped "{[/message/sent]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-12-17 19:33:52  [ localhost-startStop-1:4484 ] - [ INFO ]  Mapped "{[/wx/wxconfig]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,java.lang.String)
+2018-12-17 19:33:52  [ localhost-startStop-1:4484 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-12-17 19:33:52  [ localhost-startStop-1:4485 ] - [ INFO ]  Mapped "{[/wx/payNotify]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-12-17 19:33:52  [ localhost-startStop-1:4485 ] - [ INFO ]  Mapped "{[/wx/orderQuery]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-12-17 19:33:52  [ localhost-startStop-1:4485 ] - [ INFO ]  Mapped "{[/wx/login]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-12-17 19:33:52  [ localhost-startStop-1:4485 ] - [ INFO ]  Mapped "{[/wx/test]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-12-17 19:33:53  [ localhost-startStop-1:5484 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:33:51 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:33:53  [ localhost-startStop-1:5630 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Mon Dec 17 19:33:51 CST 2018]; parent: Root WebApplicationContext
+2018-12-17 19:33:53  [ localhost-startStop-1:5916 ] - [ INFO ]  Mapped URL path [/wxmall/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-17 19:33:53  [ localhost-startStop-1:5919 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-12-17 19:33:53  [ localhost-startStop-1:5921 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-12-17 19:33:53  [ localhost-startStop-1:5924 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-12-17 19:33:53  [ localhost-startStop-1:5926 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-12-17 19:33:53  [ localhost-startStop-1:5928 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-12-17 19:33:53  [ localhost-startStop-1:5931 ] - [ INFO ]  Mapped URL path [/jquery-weui/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-12-17 19:33:53  [ localhost-startStop-1:5934 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-12-17 19:33:53  [ localhost-startStop-1:5936 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-12-17 19:33:53  [ localhost-startStop-1:5939 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#9'
+2018-12-17 19:33:53  [ localhost-startStop-1:6106 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 2441 ms
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:12730 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:12745 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3f936e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:12809 ] - [ INFO ]  {dataSource-1} inited
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13110 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5da7162d] will be managed by Spring
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13140 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3f936e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13140 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3f936e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13140 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3f936e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13143 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13144 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@752538e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13210 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5da7162d] will be managed by Spring
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13211 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@752538e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13212 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@752538e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13212 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@752538e]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13215 ] - [ DEBUG ]  Creating a new SqlSession
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13215 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13252 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5da7162d] will be managed by Spring
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13253 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13253 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67] from current transaction
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13255 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13255 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67] from current transaction
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13257 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13257 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67] from current transaction
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13260 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13261 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67]
+2018-12-17 19:34:00  [ http-bio-8080-exec-1:13261 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34ed2e67]

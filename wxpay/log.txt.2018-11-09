@@ -1,0 +1,13 @@
+2018-11-09 12:54:47  [ http-bio-8080-exec-7:72249823 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-09 12:54:47  [ http-bio-8080-exec-7:72249824 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f99fcf6]
+2018-11-09 12:54:47  [ http-bio-8080-exec-6:72249873 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-09 12:54:47  [ http-bio-8080-exec-6:72249874 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6234a85d]
+2018-11-09 12:54:47  [ http-bio-8080-exec-6:72249919 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@349ddda9] will be managed by Spring
+2018-11-09 12:54:47  [ http-bio-8080-exec-6:72249924 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6234a85d]
+2018-11-09 12:54:47  [ http-bio-8080-exec-6:72249925 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6234a85d]
+2018-11-09 12:54:47  [ http-bio-8080-exec-6:72249925 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6234a85d]
+2018-11-09 12:54:47  [ http-bio-8080-exec-7:72249925 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@349ddda9] will be managed by Spring
+2018-11-09 12:54:47  [ http-bio-8080-exec-7:72249933 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f99fcf6]
+2018-11-09 12:54:47  [ http-bio-8080-exec-7:72249933 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f99fcf6]
+2018-11-09 12:54:47  [ http-bio-8080-exec-7:72249933 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f99fcf6]
+2018-11-09 13:41:01  [ http-bio-8080-exec-10:75024569 ] - [ WARN ]  No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'wxpay'

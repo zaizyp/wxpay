@@ -1,0 +1,953 @@
+2018-11-15 12:09:21  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-15 12:09:22  [ localhost-startStop-1:146 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Thu Nov 15 12:09:22 CST 2018]; root of context hierarchy
+2018-11-15 12:09:22  [ localhost-startStop-1:200 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-11-15 12:09:22  [ localhost-startStop-1:719 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-11-15 12:09:22  [ localhost-startStop-1:840 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-11-15 12:09:22  [ localhost-startStop-1:1049 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1050 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1050 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1050 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1050 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1051 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1051 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1051 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-11-15 12:09:22  [ localhost-startStop-1:1052 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-11-15 12:09:22  [ localhost-startStop-1:1053 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-11-15 12:09:22  [ localhost-startStop-1:1053 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-11-15 12:09:22  [ localhost-startStop-1:1054 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-11-15 12:09:22  [ localhost-startStop-1:1054 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-11-15 12:09:22  [ localhost-startStop-1:1054 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-11-15 12:09:22  [ localhost-startStop-1:1054 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-11-15 12:09:22  [ localhost-startStop-1:1054 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-11-15 12:09:23  [ localhost-startStop-1:1080 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:09:23  [ localhost-startStop-1:1081 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:09:23  [ localhost-startStop-1:1081 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:09:23  [ localhost-startStop-1:1090 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:09:23  [ localhost-startStop-1:1930 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-11-15 12:09:23  [ localhost-startStop-1:1932 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-11-15 12:09:24  [ localhost-startStop-1:2535 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2533 ms
+2018-11-15 12:09:24  [ localhost-startStop-1:2586 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-11-15 12:09:24  [ localhost-startStop-1:2590 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:09:24 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:09:24  [ localhost-startStop-1:2591 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-11-15 12:09:24  [ localhost-startStop-1:2814 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:09:24  [ localhost-startStop-1:2815 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:09:24  [ localhost-startStop-1:2815 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:09:24  [ localhost-startStop-1:2818 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:09:25  [ localhost-startStop-1:3201 ] - [ INFO ]  Mapped "{[/admin/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3203 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-11-15 12:09:25  [ localhost-startStop-1:3203 ] - [ INFO ]  Mapped "{[/admin/item/cat/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-11-15 12:09:25  [ localhost-startStop-1:3204 ] - [ INFO ]  Mapped "{[/admin/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-11-15 12:09:25  [ localhost-startStop-1:3204 ] - [ INFO ]  Mapped "{[/admin/item/cat/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-11-15 12:09:25  [ localhost-startStop-1:3205 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-11-15 12:09:25  [ localhost-startStop-1:3206 ] - [ INFO ]  Mapped "{[/admin/item/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3238 ] - [ INFO ]  Mapped "{[/admin/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-11-15 12:09:25  [ localhost-startStop-1:3241 ] - [ INFO ]  Mapped "{[/admin/item/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3243 ] - [ INFO ]  Mapped "{[/goods/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-11-15 12:09:25  [ localhost-startStop-1:3244 ] - [ INFO ]  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.index()
+2018-11-15 12:09:25  [ localhost-startStop-1:3244 ] - [ INFO ]  Mapped "{[/index/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.demo(javax.servlet.http.HttpServletRequest)
+2018-11-15 12:09:25  [ localhost-startStop-1:3244 ] - [ INFO ]  Mapped "{[/index/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.page(java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3245 ] - [ INFO ]  Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-11-15 12:09:25  [ localhost-startStop-1:3246 ] - [ INFO ]  Mapped "{[/order/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3246 ] - [ INFO ]  Mapped "{[/order/success],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-11-15 12:09:25  [ localhost-startStop-1:3247 ] - [ INFO ]  Mapped "{[/order/pay],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.Pay(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3247 ] - [ INFO ]  Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-11-15 12:09:25  [ localhost-startStop-1:3248 ] - [ INFO ]  Mapped "{[/wx],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-11-15 12:09:25  [ localhost-startStop-1:3249 ] - [ INFO ]  Mapped "{[/message/sent],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-11-15 12:09:25  [ localhost-startStop-1:3251 ] - [ INFO ]  Mapped "{[/wx/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-11-15 12:09:25  [ localhost-startStop-1:3251 ] - [ INFO ]  Mapped "{[/wx/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3251 ] - [ INFO ]  Mapped "{[/wx/wxconfig],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3252 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-11-15 12:09:25  [ localhost-startStop-1:3252 ] - [ INFO ]  Mapped "{[/wx/payNotify],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-11-15 12:09:25  [ localhost-startStop-1:3252 ] - [ INFO ]  Mapped "{[/wx/orderQuery],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-11-15 12:09:25  [ localhost-startStop-1:3870 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:09:24 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:09:25  [ localhost-startStop-1:3958 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:09:24 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:09:26  [ localhost-startStop-1:4155 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-11-15 12:09:26  [ localhost-startStop-1:4158 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-11-15 12:09:26  [ localhost-startStop-1:4160 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-11-15 12:09:26  [ localhost-startStop-1:4163 ] - [ INFO ]  Mapped URL path [/lib/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-11-15 12:09:26  [ localhost-startStop-1:4166 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-11-15 12:09:26  [ localhost-startStop-1:4168 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-11-15 12:09:26  [ localhost-startStop-1:4171 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-11-15 12:09:26  [ localhost-startStop-1:4173 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-11-15 12:09:26  [ localhost-startStop-1:4176 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-11-15 12:09:26  [ localhost-startStop-1:4211 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 1625 ms
+2018-11-15 12:10:08  [ http-bio-8080-exec-7:46998 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:10:09  [ http-bio-8080-exec-7:47115 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:09  [ http-bio-8080-exec-7:47656 ] - [ INFO ]  {dataSource-1} inited
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48320 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48380 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48380 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48383 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48384 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48386 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48387 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48389 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48390 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48393 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48393 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48396 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48396 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48399 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48400 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48404 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48404 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48407 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48407 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48410 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48411 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48414 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48414 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48417 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48417 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48420 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48421 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48424 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48424 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48429 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48429 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b] from current transaction
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48452 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48453 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:10:10  [ http-bio-8080-exec-7:48454 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2509695b]
+2018-11-15 12:15:53  [ http-bio-8080-exec-5:391868 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:15:53  [ http-bio-8080-exec-5:391868 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@173a473e]
+2018-11-15 12:15:53  [ http-bio-8080-exec-5:391895 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:15:53  [ http-bio-8080-exec-5:391903 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@173a473e]
+2018-11-15 12:15:53  [ http-bio-8080-exec-5:391904 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@173a473e]
+2018-11-15 12:15:53  [ http-bio-8080-exec-5:391904 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@173a473e]
+2018-11-15 12:15:53  [ http-bio-8080-exec-6:391937 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:15:53  [ http-bio-8080-exec-6:391937 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f144d8e]
+2018-11-15 12:15:53  [ http-bio-8080-exec-6:391938 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:15:53  [ http-bio-8080-exec-6:391943 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f144d8e]
+2018-11-15 12:15:53  [ http-bio-8080-exec-6:391944 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f144d8e]
+2018-11-15 12:15:53  [ http-bio-8080-exec-6:391944 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f144d8e]
+2018-11-15 12:15:55  [ http-bio-8080-exec-6:393843 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:15:55  [ http-bio-8080-exec-6:393843 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc558cd]
+2018-11-15 12:15:55  [ http-bio-8080-exec-6:393844 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:15:55  [ http-bio-8080-exec-6:393845 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc558cd]
+2018-11-15 12:15:55  [ http-bio-8080-exec-6:393845 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc558cd]
+2018-11-15 12:15:55  [ http-bio-8080-exec-6:393845 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dc558cd]
+2018-11-15 12:16:00  [ http-bio-8080-exec-6:398758 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:16:00  [ http-bio-8080-exec-6:398758 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f80d1a7]
+2018-11-15 12:16:00  [ http-bio-8080-exec-6:398759 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:16:00  [ http-bio-8080-exec-6:398760 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f80d1a7]
+2018-11-15 12:16:00  [ http-bio-8080-exec-6:398760 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f80d1a7]
+2018-11-15 12:16:00  [ http-bio-8080-exec-6:398760 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f80d1a7]
+2018-11-15 12:16:39  [ http-bio-8080-exec-2:437383 ] - [ INFO ]  D:\java-workspace\wxpay\src\main\webapp\
+2018-11-15 12:16:39  [ http-bio-8080-exec-2:437388 ] - [ INFO ]  {"error":0,"url":"/upload/2018/11/15/1542255399316986.jpg"}
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440471 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440472 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d181a19] was not registered for synchronization because synchronization is not active
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440472 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will not be managed by Spring
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440592 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d181a19]
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440655 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440656 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46863e05]
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440656 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440661 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46863e05]
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440661 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46863e05]
+2018-11-15 12:16:42  [ http-bio-8080-exec-5:440661 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46863e05]
+2018-11-15 12:16:44  [ http-bio-8080-exec-5:442336 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:16:44  [ http-bio-8080-exec-5:442336 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11eb7aa3]
+2018-11-15 12:16:44  [ http-bio-8080-exec-5:442337 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:16:44  [ http-bio-8080-exec-5:442338 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11eb7aa3]
+2018-11-15 12:16:44  [ http-bio-8080-exec-5:442338 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11eb7aa3]
+2018-11-15 12:16:44  [ http-bio-8080-exec-5:442339 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11eb7aa3]
+2018-11-15 12:16:47  [ http-bio-8080-exec-5:446040 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:16:47  [ http-bio-8080-exec-5:446041 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eed577c]
+2018-11-15 12:16:47  [ http-bio-8080-exec-5:446041 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:16:47  [ http-bio-8080-exec-5:446042 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eed577c]
+2018-11-15 12:16:47  [ http-bio-8080-exec-5:446042 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eed577c]
+2018-11-15 12:16:47  [ http-bio-8080-exec-5:446042 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eed577c]
+2018-11-15 12:17:18  [ http-bio-8080-exec-2:476394 ] - [ INFO ]  D:\java-workspace\wxpay\src\main\webapp\
+2018-11-15 12:17:18  [ http-bio-8080-exec-2:476396 ] - [ INFO ]  {"error":0,"url":"/upload/2018/11/15/1542255438326929.jpg"}
+2018-11-15 12:17:40  [ http-bio-8080-exec-5:498212 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:17:40  [ http-bio-8080-exec-5:498212 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e6ba372]
+2018-11-15 12:17:40  [ http-bio-8080-exec-5:498212 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:17:40  [ http-bio-8080-exec-5:498215 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e6ba372]
+2018-11-15 12:17:40  [ http-bio-8080-exec-5:498215 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e6ba372]
+2018-11-15 12:17:40  [ http-bio-8080-exec-5:498215 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e6ba372]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501182 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501183 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@576e6dd7]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501183 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501185 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@576e6dd7]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501186 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@576e6dd7]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501186 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@576e6dd7]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501223 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501223 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2615552a]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501224 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501227 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2615552a]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501227 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2615552a]
+2018-11-15 12:17:43  [ http-bio-8080-exec-5:501227 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2615552a]
+2018-11-15 12:17:58  [ http-bio-8080-exec-2:516451 ] - [ INFO ]  D:\java-workspace\wxpay\src\main\webapp\
+2018-11-15 12:17:58  [ http-bio-8080-exec-2:516455 ] - [ INFO ]  {"error":0,"url":"/upload/2018/11/15/1542255478383329.jpg"}
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533712 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533712 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f31330a] was not registered for synchronization because synchronization is not active
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533712 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will not be managed by Spring
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533756 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f31330a]
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533790 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533791 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306a4c59]
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533798 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@14860be] will be managed by Spring
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533805 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306a4c59]
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533805 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306a4c59]
+2018-11-15 12:18:15  [ http-bio-8080-exec-6:533805 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306a4c59]
+2018-11-15 12:22:07  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-15 12:22:07  [ localhost-startStop-1:116 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Thu Nov 15 12:22:07 CST 2018]; root of context hierarchy
+2018-11-15 12:22:07  [ localhost-startStop-1:171 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-11-15 12:22:07  [ localhost-startStop-1:532 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-11-15 12:22:08  [ localhost-startStop-1:662 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-11-15 12:22:08  [ localhost-startStop-1:913 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:913 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:914 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:914 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:914 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:914 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:914 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:915 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-11-15 12:22:08  [ localhost-startStop-1:915 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:917 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:917 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:917 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:917 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:917 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:917 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:917 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-11-15 12:22:08  [ localhost-startStop-1:948 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:22:08  [ localhost-startStop-1:949 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:22:08  [ localhost-startStop-1:949 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:22:08  [ localhost-startStop-1:958 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:22:09  [ localhost-startStop-1:1682 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-11-15 12:22:09  [ localhost-startStop-1:1685 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-11-15 12:22:09  [ localhost-startStop-1:2261 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2260 ms
+2018-11-15 12:22:09  [ localhost-startStop-1:2318 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-11-15 12:22:09  [ localhost-startStop-1:2322 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:22:09 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:22:09  [ localhost-startStop-1:2323 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-11-15 12:22:09  [ localhost-startStop-1:2528 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:22:09  [ localhost-startStop-1:2528 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:22:09  [ localhost-startStop-1:2528 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:22:09  [ localhost-startStop-1:2531 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:22:10  [ localhost-startStop-1:2824 ] - [ INFO ]  Mapped "{[/admin/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2827 ] - [ INFO ]  Mapped "{[/admin/item/cat/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-11-15 12:22:10  [ localhost-startStop-1:2827 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-11-15 12:22:10  [ localhost-startStop-1:2828 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-11-15 12:22:10  [ localhost-startStop-1:2828 ] - [ INFO ]  Mapped "{[/admin/item/cat/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-11-15 12:22:10  [ localhost-startStop-1:2829 ] - [ INFO ]  Mapped "{[/admin/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-11-15 12:22:10  [ localhost-startStop-1:2830 ] - [ INFO ]  Mapped "{[/admin/item/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2831 ] - [ INFO ]  Mapped "{[/admin/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-11-15 12:22:10  [ localhost-startStop-1:2831 ] - [ INFO ]  Mapped "{[/admin/item/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2832 ] - [ INFO ]  Mapped "{[/goods/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-11-15 12:22:10  [ localhost-startStop-1:2833 ] - [ INFO ]  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.index()
+2018-11-15 12:22:10  [ localhost-startStop-1:2834 ] - [ INFO ]  Mapped "{[/index/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.page(java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2834 ] - [ INFO ]  Mapped "{[/index/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.demo(javax.servlet.http.HttpServletRequest)
+2018-11-15 12:22:10  [ localhost-startStop-1:2835 ] - [ INFO ]  Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-11-15 12:22:10  [ localhost-startStop-1:2836 ] - [ INFO ]  Mapped "{[/order/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2837 ] - [ INFO ]  Mapped "{[/order/success],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-11-15 12:22:10  [ localhost-startStop-1:2837 ] - [ INFO ]  Mapped "{[/order/pay],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.Pay(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2838 ] - [ INFO ]  Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-11-15 12:22:10  [ localhost-startStop-1:2839 ] - [ INFO ]  Mapped "{[/wx],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-11-15 12:22:10  [ localhost-startStop-1:2841 ] - [ INFO ]  Mapped "{[/message/sent],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-11-15 12:22:10  [ localhost-startStop-1:2845 ] - [ INFO ]  Mapped "{[/wx/wxconfig],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2846 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-11-15 12:22:10  [ localhost-startStop-1:2846 ] - [ INFO ]  Mapped "{[/wx/payNotify],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-11-15 12:22:10  [ localhost-startStop-1:2846 ] - [ INFO ]  Mapped "{[/wx/orderQuery],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:2846 ] - [ INFO ]  Mapped "{[/wx/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-11-15 12:22:10  [ localhost-startStop-1:2846 ] - [ INFO ]  Mapped "{[/wx/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-11-15 12:22:10  [ localhost-startStop-1:3608 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:22:09 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:22:11  [ localhost-startStop-1:3679 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:22:09 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:22:11  [ localhost-startStop-1:3873 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-11-15 12:22:11  [ localhost-startStop-1:3876 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-11-15 12:22:11  [ localhost-startStop-1:3878 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-11-15 12:22:11  [ localhost-startStop-1:3880 ] - [ INFO ]  Mapped URL path [/lib/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-11-15 12:22:11  [ localhost-startStop-1:3882 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-11-15 12:22:11  [ localhost-startStop-1:3884 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-11-15 12:22:11  [ localhost-startStop-1:3887 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-11-15 12:22:11  [ localhost-startStop-1:3889 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-11-15 12:22:11  [ localhost-startStop-1:3891 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-11-15 12:22:11  [ localhost-startStop-1:3931 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 1613 ms
+2018-11-15 12:22:45  [ http-bio-8080-exec-1:38050 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:22:45  [ http-bio-8080-exec-1:38112 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122]
+2018-11-15 12:22:46  [ http-bio-8080-exec-1:38650 ] - [ INFO ]  {dataSource-1} inited
+2018-11-15 12:22:46  [ http-bio-8080-exec-1:38940 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@68172c01] will be managed by Spring
+2018-11-15 12:22:46  [ http-bio-8080-exec-1:39014 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122]
+2018-11-15 12:24:49  [ http-bio-8080-exec-1:162060 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122] from current transaction
+2018-11-15 12:24:49  [ http-bio-8080-exec-1:162065 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122]
+2018-11-15 12:25:38  [ http-bio-8080-exec-1:210676 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122] from current transaction
+2018-11-15 12:25:38  [ http-bio-8080-exec-1:210680 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122]
+2018-11-15 12:25:38  [ http-bio-8080-exec-1:211354 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122] from current transaction
+2018-11-15 12:25:38  [ http-bio-8080-exec-1:211356 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122]
+2018-11-15 12:25:39  [ http-bio-8080-exec-1:211740 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122] from current transaction
+2018-11-15 12:25:39  [ http-bio-8080-exec-1:211742 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122]
+2018-11-15 12:25:39  [ http-bio-8080-exec-1:212091 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122] from current transaction
+2018-11-15 12:25:39  [ http-bio-8080-exec-1:212092 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832122]
+2018-11-15 12:30:29  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-15 12:30:29  [ localhost-startStop-1:135 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Thu Nov 15 12:30:29 CST 2018]; root of context hierarchy
+2018-11-15 12:30:29  [ localhost-startStop-1:187 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-11-15 12:30:30  [ localhost-startStop-1:547 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-11-15 12:30:30  [ localhost-startStop-1:661 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-11-15 12:30:30  [ localhost-startStop-1:910 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:911 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:912 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:912 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:913 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:913 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:913 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:914 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-11-15 12:30:30  [ localhost-startStop-1:914 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:916 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:916 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:916 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:916 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:916 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:916 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:916 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-11-15 12:30:30  [ localhost-startStop-1:942 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:30:30  [ localhost-startStop-1:942 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:30:30  [ localhost-startStop-1:942 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:30:30  [ localhost-startStop-1:952 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:30:31  [ localhost-startStop-1:1648 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-11-15 12:30:31  [ localhost-startStop-1:1650 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-11-15 12:30:31  [ localhost-startStop-1:2254 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2253 ms
+2018-11-15 12:30:32  [ localhost-startStop-1:2306 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-11-15 12:30:32  [ localhost-startStop-1:2309 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:30:32 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:30:32  [ localhost-startStop-1:2310 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-11-15 12:30:32  [ localhost-startStop-1:2533 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:30:32  [ localhost-startStop-1:2533 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:30:32  [ localhost-startStop-1:2533 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:30:32  [ localhost-startStop-1:2537 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:30:32  [ localhost-startStop-1:2890 ] - [ INFO ]  Mapped "{[/admin/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2892 ] - [ INFO ]  Mapped "{[/admin/item/cat/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-11-15 12:30:32  [ localhost-startStop-1:2893 ] - [ INFO ]  Mapped "{[/admin/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-11-15 12:30:32  [ localhost-startStop-1:2893 ] - [ INFO ]  Mapped "{[/admin/item/cat/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-11-15 12:30:32  [ localhost-startStop-1:2894 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-11-15 12:30:32  [ localhost-startStop-1:2894 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-11-15 12:30:32  [ localhost-startStop-1:2896 ] - [ INFO ]  Mapped "{[/admin/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-11-15 12:30:32  [ localhost-startStop-1:2896 ] - [ INFO ]  Mapped "{[/admin/item/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2896 ] - [ INFO ]  Mapped "{[/admin/item/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2897 ] - [ INFO ]  Mapped "{[/goods/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-11-15 12:30:32  [ localhost-startStop-1:2898 ] - [ INFO ]  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.index()
+2018-11-15 12:30:32  [ localhost-startStop-1:2899 ] - [ INFO ]  Mapped "{[/index/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.demo(javax.servlet.http.HttpServletRequest)
+2018-11-15 12:30:32  [ localhost-startStop-1:2899 ] - [ INFO ]  Mapped "{[/index/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.page(java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2900 ] - [ INFO ]  Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-11-15 12:30:32  [ localhost-startStop-1:2902 ] - [ INFO ]  Mapped "{[/order/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2902 ] - [ INFO ]  Mapped "{[/order/success],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-11-15 12:30:32  [ localhost-startStop-1:2902 ] - [ INFO ]  Mapped "{[/order/pay],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.Pay(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2903 ] - [ INFO ]  Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-11-15 12:30:32  [ localhost-startStop-1:2904 ] - [ INFO ]  Mapped "{[/wx],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-11-15 12:30:32  [ localhost-startStop-1:2905 ] - [ INFO ]  Mapped "{[/message/sent],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-11-15 12:30:32  [ localhost-startStop-1:2907 ] - [ INFO ]  Mapped "{[/wx/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-11-15 12:30:32  [ localhost-startStop-1:2908 ] - [ INFO ]  Mapped "{[/wx/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2909 ] - [ INFO ]  Mapped "{[/wx/wxconfig],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,java.lang.String)
+2018-11-15 12:30:32  [ localhost-startStop-1:2909 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-11-15 12:30:32  [ localhost-startStop-1:2910 ] - [ INFO ]  Mapped "{[/wx/payNotify],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-11-15 12:30:32  [ localhost-startStop-1:2910 ] - [ INFO ]  Mapped "{[/wx/orderQuery],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-11-15 12:30:33  [ localhost-startStop-1:3363 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:30:32 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:30:33  [ localhost-startStop-1:3454 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:30:32 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:30:33  [ localhost-startStop-1:3654 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-11-15 12:30:33  [ localhost-startStop-1:3657 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-11-15 12:30:33  [ localhost-startStop-1:3659 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-11-15 12:30:33  [ localhost-startStop-1:3661 ] - [ INFO ]  Mapped URL path [/lib/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-11-15 12:30:33  [ localhost-startStop-1:3663 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-11-15 12:30:33  [ localhost-startStop-1:3666 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-11-15 12:30:33  [ localhost-startStop-1:3668 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-11-15 12:30:33  [ localhost-startStop-1:3671 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-11-15 12:30:33  [ localhost-startStop-1:3674 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-11-15 12:30:33  [ localhost-startStop-1:3726 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 1419 ms
+2018-11-15 12:30:45  [ http-bio-8080-exec-1:15382 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:30:45  [ http-bio-8080-exec-1:15445 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:30:45  [ http-bio-8080-exec-1:16036 ] - [ INFO ]  {dataSource-1} inited
+2018-11-15 12:30:46  [ http-bio-8080-exec-1:16341 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c1627ff] will be managed by Spring
+2018-11-15 12:30:46  [ http-bio-8080-exec-1:16420 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:30:52  [ http-bio-8080-exec-1:22958 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:30:52  [ http-bio-8080-exec-1:22985 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:14  [ http-bio-8080-exec-1:44416 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:14  [ http-bio-8080-exec-1:44419 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:15  [ http-bio-8080-exec-1:45402 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:15  [ http-bio-8080-exec-1:45406 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:16  [ http-bio-8080-exec-1:46272 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:16  [ http-bio-8080-exec-1:46274 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:19  [ http-bio-8080-exec-1:49411 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:19  [ http-bio-8080-exec-1:49416 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:20  [ http-bio-8080-exec-1:50573 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:20  [ http-bio-8080-exec-1:50576 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:21  [ http-bio-8080-exec-1:51542 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:21  [ http-bio-8080-exec-1:51553 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:22  [ http-bio-8080-exec-1:52280 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:22  [ http-bio-8080-exec-1:52282 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:22  [ http-bio-8080-exec-1:52937 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:22  [ http-bio-8080-exec-1:52940 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:23  [ http-bio-8080-exec-1:53537 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:23  [ http-bio-8080-exec-1:53542 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:23  [ http-bio-8080-exec-1:54168 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:23  [ http-bio-8080-exec-1:54170 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:24  [ http-bio-8080-exec-1:54972 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:24  [ http-bio-8080-exec-1:54976 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:25  [ http-bio-8080-exec-1:55580 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3] from current transaction
+2018-11-15 12:31:25  [ http-bio-8080-exec-1:55590 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:25  [ http-bio-8080-exec-1:56058 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:31:25  [ http-bio-8080-exec-1:56058 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@465cdec3]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229273 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229273 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229282 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c1627ff] will be managed by Spring
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229288 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229288 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229291 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229292 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229294 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229295 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229296 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229296 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229298 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229298 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229299 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229299 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229301 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229301 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229302 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229302 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229304 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229304 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229305 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229306 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229307 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229307 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229309 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229309 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229344 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229344 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194] from current transaction
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229349 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229349 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:34:19  [ http-bio-8080-exec-7:229349 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365ba194]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278398 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278398 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278399 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c1627ff] will be managed by Spring
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278402 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278402 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278408 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278408 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278410 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278410 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278412 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278412 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278413 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278413 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278415 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278415 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278416 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278417 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278418 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278418 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278420 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278420 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278421 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278421 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278423 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278423 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278425 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278425 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278427 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278427 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278430 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278431 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-4:278432 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@470a3bfc]
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279246 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279246 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279247 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c1627ff] will be managed by Spring
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279250 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279250 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279253 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279253 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279257 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:08  [ http-bio-8080-exec-10:279257 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279261 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279261 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279264 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279264 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279266 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279267 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279268 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279269 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279271 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279271 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279274 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279274 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279276 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279276 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279278 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279278 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279280 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279280 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279282 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279283 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33] from current transaction
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279285 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279285 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:09  [ http-bio-8080-exec-10:279285 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49197f33]
+2018-11-15 12:35:59  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-15 12:36:00  [ localhost-startStop-1:161 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Thu Nov 15 12:36:00 CST 2018]; root of context hierarchy
+2018-11-15 12:36:00  [ localhost-startStop-1:223 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-bean.xml]
+2018-11-15 12:36:00  [ localhost-startStop-1:620 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-service.xml]
+2018-11-15 12:36:00  [ localhost-startStop-1:747 ] - [ INFO ]  Loading XML bean definitions from file [D:\java-workspace\wxpay\target\classes\spring\applicationContext-trans.xml]
+2018-11-15 12:36:00  [ localhost-startStop-1:967 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxBrandMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:967 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemCatMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:967 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemDescMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:968 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:968 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSkuMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:968 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxItemSpecMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:968 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxShopMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:969 ] - [ DEBUG ]  Identified candidate component class: file [D:\java-workspace\wxpay\target\classes\com\ping\mapper\WxUserMapper.class]
+2018-11-15 12:36:00  [ localhost-startStop-1:969 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxBrandMapper' and 'com.ping.mapper.WxBrandMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:970 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemCatMapper' and 'com.ping.mapper.WxItemCatMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:971 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemDescMapper' and 'com.ping.mapper.WxItemDescMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:971 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemMapper' and 'com.ping.mapper.WxItemMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:971 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSkuMapper' and 'com.ping.mapper.WxItemSkuMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:971 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxItemSpecMapper' and 'com.ping.mapper.WxItemSpecMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:971 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxShopMapper' and 'com.ping.mapper.WxShopMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:971 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'wxUserMapper' and 'com.ping.mapper.WxUserMapper' mapperInterface
+2018-11-15 12:36:00  [ localhost-startStop-1:995 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:36:00  [ localhost-startStop-1:995 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:36:00  [ localhost-startStop-1:996 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:36:00  [ localhost-startStop-1:1005 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:36:01  [ localhost-startStop-1:1725 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-11-15 12:36:01  [ localhost-startStop-1:1727 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-11-15 12:36:02  [ localhost-startStop-1:2318 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2317 ms
+2018-11-15 12:36:02  [ localhost-startStop-1:2375 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization started
+2018-11-15 12:36:02  [ localhost-startStop-1:2379 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:36:02 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:36:02  [ localhost-startStop-1:2380 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-11-15 12:36:02  [ localhost-startStop-1:2612 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\db.properties]
+2018-11-15 12:36:02  [ localhost-startStop-1:2612 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\resource.properties]
+2018-11-15 12:36:02  [ localhost-startStop-1:2612 ] - [ INFO ]  Loading properties file from file [D:\java-workspace\wxpay\target\classes\resource\weixin.properties]
+2018-11-15 12:36:02  [ localhost-startStop-1:2615 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-15 12:36:02  [ localhost-startStop-1:2961 ] - [ INFO ]  Mapped "{[/admin/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.AdminController.page(java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2963 ] - [ INFO ]  Mapped "{[/admin/item/cat/detailsList],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.ItemCat> com.ping.controller.AdminItemCatController.categoryDetailsList(java.lang.Long)
+2018-11-15 12:36:02  [ localhost-startStop-1:2963 ] - [ INFO ]  Mapped "{[/admin/item/cat/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.updateItemCat(com.ping.pojo.WxItemCat,java.lang.Long)
+2018-11-15 12:36:02  [ localhost-startStop-1:2964 ] - [ INFO ]  Mapped "{[/admin/item/cat/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.deleteItemCat(java.lang.Long)
+2018-11-15 12:36:02  [ localhost-startStop-1:2964 ] - [ INFO ]  Mapped "{[/admin/item/cat/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemCatController.createItemCat(com.ping.pojo.WxItemCat)
+2018-11-15 12:36:02  [ localhost-startStop-1:2964 ] - [ INFO ]  Mapped "{[/admin/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.ping.vo.EUTreeNode> com.ping.controller.AdminItemCatController.categoryList(java.lang.Long)
+2018-11-15 12:36:02  [ localhost-startStop-1:2966 ] - [ INFO ]  Mapped "{[/admin/item/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.addItem(com.ping.pojo.WxItem,com.ping.pojo.WxItemDesc,com.ping.pojo.WxItemSpec,java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2967 ] - [ INFO ]  Mapped "{[/admin/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.vo.PageData<com.ping.pojo.WxItem> com.ping.controller.AdminItemController.itemList(java.lang.Integer,java.lang.Integer)
+2018-11-15 12:36:02  [ localhost-startStop-1:2967 ] - [ INFO ]  Mapped "{[/admin/item/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.AdminItemController.deleteItem(java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2968 ] - [ INFO ]  Mapped "{[/goods/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.GoodsController.List()
+2018-11-15 12:36:02  [ localhost-startStop-1:2969 ] - [ INFO ]  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.index()
+2018-11-15 12:36:02  [ localhost-startStop-1:2970 ] - [ INFO ]  Mapped "{[/index/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.page(java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2970 ] - [ INFO ]  Mapped "{[/index/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.IndexController.demo(javax.servlet.http.HttpServletRequest)
+2018-11-15 12:36:02  [ localhost-startStop-1:2971 ] - [ INFO ]  Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.ItemCatController.itemList(org.springframework.ui.Model)
+2018-11-15 12:36:02  [ localhost-startStop-1:2973 ] - [ INFO ]  Mapped "{[/order/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2973 ] - [ INFO ]  Mapped "{[/order/success],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.success()
+2018-11-15 12:36:02  [ localhost-startStop-1:2973 ] - [ INFO ]  Mapped "{[/order/pay],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.OrderController.Pay(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2974 ] - [ INFO ]  Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.PictureController.uploadPicture(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile)
+2018-11-15 12:36:02  [ localhost-startStop-1:2975 ] - [ INFO ]  Mapped "{[/wx],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.ResultController.resWX(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-11-15 12:36:02  [ localhost-startStop-1:2977 ] - [ INFO ]  Mapped "{[/message/sent],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXMessageController.sent()
+2018-11-15 12:36:02  [ localhost-startStop-1:2978 ] - [ INFO ]  Mapped "{[/wx/wxconfig],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.getWXconfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2979 ] - [ INFO ]  Mapped "{[/wx/unifiedOrder],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.unifiedOrder(java.lang.String,javax.servlet.http.HttpSession)
+2018-11-15 12:36:02  [ localhost-startStop-1:2979 ] - [ INFO ]  Mapped "{[/wx/payNotify],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.ping.controller.WXPayController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-11-15 12:36:02  [ localhost-startStop-1:2979 ] - [ INFO ]  Mapped "{[/wx/orderQuery],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.ping.util.WXResult com.ping.controller.WXPayController.orderQuery(java.lang.String)
+2018-11-15 12:36:02  [ localhost-startStop-1:2980 ] - [ INFO ]  Mapped "{[/wx/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.getAccess_token(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2018-11-15 12:36:02  [ localhost-startStop-1:2980 ] - [ INFO ]  Mapped "{[/wx/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.ping.controller.WXPayController.debugTest(java.lang.String)
+2018-11-15 12:36:03  [ localhost-startStop-1:3578 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:36:02 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:36:03  [ localhost-startStop-1:3668 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'wxpay-servlet': startup date [Thu Nov 15 12:36:02 CST 2018]; parent: Root WebApplicationContext
+2018-11-15 12:36:03  [ localhost-startStop-1:3884 ] - [ INFO ]  Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-11-15 12:36:03  [ localhost-startStop-1:3887 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-11-15 12:36:03  [ localhost-startStop-1:3889 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-11-15 12:36:03  [ localhost-startStop-1:3891 ] - [ INFO ]  Mapped URL path [/lib/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2018-11-15 12:36:03  [ localhost-startStop-1:3894 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2018-11-15 12:36:03  [ localhost-startStop-1:3896 ] - [ INFO ]  Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2018-11-15 12:36:03  [ localhost-startStop-1:3898 ] - [ INFO ]  Mapped URL path [/admin/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2018-11-15 12:36:03  [ localhost-startStop-1:3900 ] - [ INFO ]  Mapped URL path [/admin/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2018-11-15 12:36:03  [ localhost-startStop-1:3903 ] - [ INFO ]  Mapped URL path [/admin/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2018-11-15 12:36:03  [ localhost-startStop-1:3944 ] - [ INFO ]  FrameworkServlet 'wxpay': initialization completed in 1568 ms
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36198 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36213 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36398 ] - [ INFO ]  {dataSource-1} inited
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36701 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36741 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36741 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36750 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36751 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36756 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36756 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36761 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36762 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36767 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36767 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36770 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36770 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36772 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36773 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36778 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36778 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36780 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36780 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36782 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36782 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36784 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36784 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36786 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36786 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36789 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36790 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04] from current transaction
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36793 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36794 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:36:36  [ http-bio-8080-exec-1:36794 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e7ded04]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94086 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94086 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94091 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94096 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94097 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94103 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94103 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94107 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94107 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94109 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94109 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94112 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94112 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94114 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94114 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94116 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94117 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94119 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94119 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94121 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94121 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94123 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94124 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94125 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94126 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94128 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94128 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94131 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94132 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342] from current transaction
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94134 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94134 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:37:34  [ http-bio-8080-exec-6:94134 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37ac7342]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125719 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125719 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125720 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125723 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125723 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125729 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125729 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125736 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125736 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125738 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125739 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125740 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125740 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125742 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125742 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125743 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125743 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125745 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125745 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125746 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125746 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125748 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125748 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125749 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125749 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125750 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125750 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125753 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125753 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe] from current transaction
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125760 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125761 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:05  [ http-bio-8080-exec-10:125761 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1b4ebe]
+2018-11-15 12:38:06  [ http-bio-8080-exec-2:126188 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919612 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919612 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919619 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919627 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919627 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919639 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919639 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919647 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919647 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919702 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919702 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919704 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919704 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919706 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919706 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919712 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919712 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919715 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919715 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919718 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919718 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919727 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919728 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919730 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919730 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919733 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919733 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919737 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919737 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5] from current transaction
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919739 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919740 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-8:919740 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321a09b5]
+2018-11-15 12:51:19  [ http-bio-8080-exec-7:919963 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527221 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527221 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527222 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527225 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527225 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527227 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527227 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527229 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527229 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527230 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527230 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527232 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527232 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527233 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527233 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527235 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527235 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527236 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527237 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527238 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527238 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527239 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527239 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527241 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527241 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527242 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527242 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527244 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527244 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450] from current transaction
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527246 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527246 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-3:1527246 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22038450]
+2018-11-15 13:01:27  [ http-bio-8080-exec-1:1527438 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583558 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583560 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583560 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583562 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583563 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583570 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583570 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583572 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583572 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583574 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583574 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583580 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583580 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583583 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583583 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583585 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583585 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583587 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583587 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583590 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583590 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583592 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583592 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583594 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583594 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583595 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583595 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583597 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583597 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005] from current transaction
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583599 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583599 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583599 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a857005]
+2018-11-15 13:02:23  [ http-bio-8080-exec-1:1583781 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:03:02  [ http-bio-8080-exec-1:1622188 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/pro_list.html] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890546 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890546 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890547 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890549 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890549 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890551 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890551 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890553 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890553 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890558 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890558 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890560 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890560 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890562 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890562 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890564 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890564 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890566 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890566 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890568 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890568 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890570 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890570 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890571 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890573 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890574 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890574 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890577 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890577 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a] from current transaction
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890579 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890579 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-7:1890579 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68f1491a]
+2018-11-15 13:07:30  [ http-bio-8080-exec-3:1890605 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118475 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118475 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118478 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118479 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118480 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118481 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118481 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118483 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118483 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118485 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118485 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118486 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118486 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118487 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118487 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118488 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118489 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118496 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118496 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118498 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118500 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118503 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118503 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118504 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118505 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118507 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118507 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118508 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118509 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59] from current transaction
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118513 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118513 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118513 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40115d59]
+2018-11-15 13:11:18  [ http-bio-8080-exec-2:2118753 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397698 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397698 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397698 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397701 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397701 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397702 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397703 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397716 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397717 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397721 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397722 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397723 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397723 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397724 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397724 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397725 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397726 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397727 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397727 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397728 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397728 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397730 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397730 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397731 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397731 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397732 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397732 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397734 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397734 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368] from current transaction
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397735 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397736 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397736 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5d1368]
+2018-11-15 13:15:57  [ http-bio-8080-exec-9:2397939 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422401 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422401 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422402 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422409 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422410 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422413 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422413 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422417 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422417 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422419 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422419 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422421 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422421 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422423 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422423 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422425 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422425 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422426 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422427 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422429 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422430 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422431 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422431 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422433 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422433 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422434 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422435 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422437 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422437 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8] from current transaction
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422439 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422439 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-4:2422439 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38e773e8]
+2018-11-15 13:16:22  [ http-bio-8080-exec-7:2422599 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452130 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452131 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452131 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452134 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452134 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452138 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452138 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452139 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452139 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452149 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452149 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452151 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452151 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452152 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452152 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452154 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452154 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452157 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452157 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452159 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452159 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452161 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452161 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452163 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452163 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452164 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452164 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452167 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452167 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472] from current transaction
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452169 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452170 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452170 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b81472]
+2018-11-15 13:16:52  [ http-bio-8080-exec-7:2452349 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/image/kfc.jpg] in DispatcherServlet with name 'wxpay'
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508905 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508905 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508906 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will be managed by Spring
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508913 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508913 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508915 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508915 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508917 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508917 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508918 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508918 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508920 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508920 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508922 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508922 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508927 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508927 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508928 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508929 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508930 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508930 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508933 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508933 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508934 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508934 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508936 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508936 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508938 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508938 ] - [ DEBUG ]  Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b] from current transaction
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508940 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508940 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:17:48  [ http-bio-8080-exec-7:2508940 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@545e482b]
+2018-11-15 13:22:43  [ http-bio-8080-exec-1:2803455 ] - [ DEBUG ]  Creating a new SqlSession
+2018-11-15 13:22:43  [ http-bio-8080-exec-1:2803455 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@715873a] was not registered for synchronization because synchronization is not active
+2018-11-15 13:22:43  [ http-bio-8080-exec-1:2803498 ] - [ DEBUG ]  JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f47e85a] will not be managed by Spring
+2018-11-15 13:22:43  [ http-bio-8080-exec-1:2803502 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@715873a]
+2018-11-15 20:12:35  [ http-bio-8080-exec-4:27395226 ] - [ WARN ]  No mapping found for HTTP request with URI [/item/cat/pro_list.html] in DispatcherServlet with name 'wxpay'
